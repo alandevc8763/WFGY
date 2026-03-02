@@ -33,40 +33,40 @@ Important:
 - Do NOT invent new paths or filenames. Only use the GitHub URLs that already exist in this table.
 -->
 
-| Layer         | Page                                                                                                        | What it’s for                                           |
-| ------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| ⭐ Proof      | [WFGY Recognition Map](https://github.com/onestardao/WFGY/blob/main/recognition/README.md)                 | External citations, integrations, and ecosystem proof   |
-| ⚙️ Engine     | [WFGY 1.0](https://github.com/onestardao/WFGY/blob/main/legacy/README.md)                                   | Original PDF-based tension engine blue   |
-| ⚙️ Engine     | [WFGY 2.0](https://github.com/onestardao/WFGY/blob/main/core/README.md)                                     | Production tension kernel and math engine for RAG and agents. |
-| ⚙️ Engine     | [WFGY 3.0](https://github.com/onestardao/WFGY/blob/main/TensionUniverse/EventHorizon/README.md)             | TXT-based Singularity tension engine (131 S-class set)  |
-| 🗺️ Map       | [Problem Map 1.0](https://github.com/onestardao/WFGY/tree/main/ProblemMap#readme)                           | Flagship 16-problem RAG failure checklist and fix map       |
-| 🗺️ Map       | [Problem Map 2.0](https://github.com/onestardao/WFGY/blob/main/ProblemMap/rag-architecture-and-recovery.md) | RAG-focused recovery pipeline                           |
-| 🗺️ Map       | [Problem Map 3.0](https://github.com/onestardao/WFGY/blob/main/ProblemMap/wfgy-rag-16-problem-map-global-debug-card.md) | Global Debug Card - image as a debug protocol layer - **🔴 YOU ARE HERE 🔴**    |
-| 🗺️ Map       | [Semantic Clinic](https://github.com/onestardao/WFGY/blob/main/ProblemMap/SemanticClinicIndex.md)           | Symptom → family → exact fix                            |
-| 🧓 Map        | [Grandma’s Clinic](https://github.com/onestardao/WFGY/blob/main/ProblemMap/GrandmaClinic/README.md)         | Plain-language stories, mapped to PM 1.0                |
-| 🏡 Onboarding | [Starter Village](https://github.com/onestardao/WFGY/blob/main/StarterVillage/README.md)                    | Guided tour for newcomers                               |
-| 🧰 App        | [TXT OS](https://github.com/onestardao/WFGY/tree/main/OS#readme)                                            | .txt semantic OS - 60-second boot                       |
-| 🧰 App        | [Blah Blah Blah](https://github.com/onestardao/WFGY/blob/main/OS/BlahBlahBlah/README.md)                    | Abstract/paradox Q&A (built on TXT OS)                  |
-| 🧰 App        | [Blur Blur Blur](https://github.com/onestardao/WFGY/blob/main/OS/BlurBlurBlur/README.md)                    | Text-to-image with semantic control                     |
-| 🧰 App        | [Blow Blow Blow](https://github.com/onestardao/WFGY/blob/main/OS/BlowBlowBlow/README.md)                    | Reasoning game engine & memory demo                     |
-| 🧪 Research   | [Semantic Blueprint](https://github.com/onestardao/WFGY/blob/main/SemanticBlueprint/README.md)              | Modular layer structures (future)                       |
-| 🧪 Research   | [Benchmarks](https://github.com/onestardao/WFGY/blob/main/benchmarks/benchmark-vs-gpt5/README.md)           | Comparisons & how to reproduce                          |
-| 🧪 Research   | [Value Manifest](https://github.com/onestardao/WFGY/blob/main/value_manifest/README.md)                     | Why this engine creates $-scale value                   |
+| Layer         | Page                                                                                                        | What it’s for                                                  |
+| ------------- | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| ⭐ Proof      | [WFGY Recognition Map](https://github.com/onestardao/WFGY/blob/main/recognition/README.md)                 | External citations, integrations, and ecosystem proof          |
+| ⚙️ Engine     | [WFGY 1.0](https://github.com/onestardao/WFGY/blob/main/legacy/README.md)                                   | Original PDF-based tension engine blue                         |
+| ⚙️ Engine     | [WFGY 2.0](https://github.com/onestardao/WFGY/blob/main/core/README.md)                                     | Production tension kernel and math engine for RAG and agents.  |
+| ⚙️ Engine     | [WFGY 3.0](https://github.com/onestardao/WFGY/blob/main/TensionUniverse/EventHorizon/README.md)            | TXT-based Singularity tension engine (131 S-class set)         |
+| 🗺️ Map       | [Problem Map 1.0](https://github.com/onestardao/WFGY/tree/main/ProblemMap#readme)                          | Flagship 16-problem RAG failure checklist and fix map          |
+| 🗺️ Map       | [Problem Map 2.0](https://github.com/onestardao/WFGY/blob/main/ProblemMap/rag-architecture-and-recovery.md) | RAG-focused recovery pipeline                                |
+| 🗺️ Map       | [Problem Map 3.0](https://github.com/onestardao/WFGY/blob/main/ProblemMap/wfgy-rag-16-problem-map-global-debug-card.md) | Global Debug Card - image as a debug protocol layer - **🔴 YOU ARE HERE 🔴** |
+| 🗺️ Map       | [Semantic Clinic](https://github.com/onestardao/WFGY/blob/main/ProblemMap/SemanticClinicIndex.md)          | Symptom → family → exact fix                                   |
+| 🧓 Map        | [Grandma’s Clinic](https://github.com/onestardao/WFGY/blob/main/ProblemMap/GrandmaClinic/README.md)        | Plain-language stories, mapped to PM 1.0                       |
+| 🏡 Onboarding | [Starter Village](https://github.com/onestardao/WFGY/blob/main/StarterVillage/README.md)                   | Guided tour for newcomers                                      |
+| 🧰 App        | [TXT OS](https://github.com/onestardao/WFGY/tree/main/OS#readme)                                            | .txt semantic OS - 60-second boot                              |
+| 🧰 App        | [Blah Blah Blah](https://github.com/onestardao/WFGY/blob/main/OS/BlahBlahBlah/README.md)                   | Abstract/paradox Q&A (built on TXT OS)                         |
+| 🧰 App        | [Blur Blur Blur](https://github.com/onestardao/WFGY/blob/main/OS/BlurBlurBlur/README.md)                   | Text-to-image with semantic control                            |
+| 🧰 App        | [Blow Blow Blow](https://github.com/onestardao/WFGY/blob/main/OS/BlowBlowBlow/README.md)                   | Reasoning game engine & memory demo                            |
+| 🧪 Research   | [Semantic Blueprint](https://github.com/onestardao/WFGY/blob/main/SemanticBlueprint/README.md)             | Modular layer structures (future)                              |
+| 🧪 Research   | [Benchmarks](https://github.com/onestardao/WFGY/blob/main/benchmarks/benchmark-vs-gpt5/README.md)          | Comparisons & how to reproduce                                 |
+| 🧪 Research   | [Value Manifest](https://github.com/onestardao/WFGY/blob/main/value_manifest/README.md)                    | Why this engine creates $-scale value                          |
 
 ---
 </details>
 
-# 🚀 WFGY 3.0 · RAG 16 Problem Map · Global Debug Card  
+# 🚀 WFGY 3.0 · RAG 16 Problem Map · Global Debug Card
 ### Image as a Structured Debug Prompt for RAG / Agent Pipelines
 
 <details>
 <summary>🌐 Recognition & ecosystem integration</summary>
 <br>
 
-> As of 2026-03, the **WFGY RAG 16 Problem Map** line has been adopted or referenced by  
-> **20+ frameworks, academic labs, and curated lists** in the RAG and agent ecosystem.  
-> Most external references use the WFGY ProblemMap as a diagnostic layer for RAG / agent pipelines,  
-> not the full WFGY product stack.  
+> As of 2026-03, the **WFGY RAG 16 Problem Map** line has been adopted or referenced by
+> **20+ frameworks, academic labs, and curated lists** in the RAG and agent ecosystem.
+> Most external references use the WFGY ProblemMap as a diagnostic layer for RAG / agent pipelines,
+> not the full WFGY product stack.
 > A smaller but growing set also uses **WFGY 3.0 · Singularity Demo** as a long-horizon TXT stress test.
 
 Some representative integrations:
@@ -79,19 +79,19 @@ Some representative integrations:
 | [Rankify (Univ. of Innsbruck)](https://github.com/DataScienceUIBK/Rankify) | [![GitHub Repo stars](https://img.shields.io/github/stars/DataScienceUIBK/Rankify?style=social)](https://github.com/DataScienceUIBK/Rankify) | Academic lab / system | Uses the 16 failure patterns in RAG and re-ranking troubleshooting docs. | [PR #76](https://github.com/DataScienceUIBK/Rankify/pull/76) |
 | [Multimodal RAG Survey (QCRI LLM Lab)](https://github.com/llm-lab-org/Multimodal-RAG-Survey) | [![GitHub Repo stars](https://img.shields.io/github/stars/llm-lab-org/Multimodal-RAG-Survey?style=social)](https://github.com/llm-lab-org/Multimodal-RAG-Survey) | Academic lab / survey | Cites WFGY as a practical diagnostic resource for multimodal RAG. | [PR #4](https://github.com/llm-lab-org/Multimodal-RAG-Survey/pull/4) |
 
-For the complete 20+ project list (frameworks, benchmarks, curated lists), see the  👉 **[WFGY Recognition Map](https://github.com/onestardao/WFGY/blob/main/recognition/README.md)**
+For the complete 20+ project list (frameworks, benchmarks, curated lists), see the 👉 **[WFGY Recognition Map](https://github.com/onestardao/WFGY/blob/main/recognition/README.md)**
 
-> If your project uses the WFGY ProblemMap and you would like to be listed,  
+> If your project uses the WFGY ProblemMap and you would like to be listed,
 > feel free to open an issue or pull request in this repository.
 
 ---
 
 </details>
 
-A production-first failure map for RAG / agent pipelines, compressed into one portable image.  
+A production-first failure map for RAG / agent pipelines, compressed into one portable image.
 The poster defines objects, metrics, ΔS zones, failure types, and mode patterns in a single unified view.
 
-Feed a failing run `(Q, E, P, A)` plus this card to any LLM.  
+Feed a failing run `(Q, E, P, A)` plus this card to any LLM.
 It returns `type → mode(s) → fixes → verification tests`.
 
 No external framework required.
@@ -101,20 +101,22 @@ No external framework required.
 <details>
 <summary><b>How to use (60 seconds)</b></summary>
 
-1) Download the **full-resolution** Debug Card from this repository.  
-2) Upload the image to any strong LLM.  
+<br>
+
+1) Download the **full-resolution** Debug Card from this repository.
+2) Upload the image to any strong LLM.
 3) Paste your failing run context:
-   - `Q` = user question  
-   - `E` = top-k retrieved evidence  
-   - `P` = final prompt sent to the model  
-   - `A` = model output  
-   - plus logs/metrics if available  
+   - `Q` = user question
+   - `E` = top-k retrieved evidence
+   - `P` = final prompt sent to the model
+   - `A` = model output
+   - plus logs/metrics if available
 4) Ask the model to diagnose using the **16-Problem Map** and propose fixes with one test per fix.
 
 Expected output:
-- ΔS zones (or best-effort estimate)  
-- failure type: `R / P / S / I`  
-- 1–3 matching modes (1–16)  
+- ΔS zones (or best-effort estimate)
+- failure type: `R / P / S / I`
+- 1–3 matching modes (1–16)
 - structural fixes + verification tests
 
 </details>
@@ -125,53 +127,145 @@ Expected output:
 
 ---
 
-📥 Download the original full-resolution image directly from this repository.  
+📥 Download the original full-resolution image directly from this repository.
 If this helps you, feel free to leave a ⭐ on GitHub.
 
 ---
 
 <details>
-<summary><b>Colab MVP (Work in Progress)</b></summary>
+<summary><b>Colab MVP · Wave 0 (one-click runnable)</b></summary>
 
-This section is a placeholder for the first runnable notebook release.
+<br>
 
-Planned direction:
-- run one failing case from `(Q, E, P, A)`
-- emit a structured debug packet
-- apply one constrained patch
-- re-check verification signals
+Wave 0 is the first executable form of the Global Debug Card protocol.
 
-Expected first-wave scope:
-- No.1 retrieval wrong or off-topic
-- No.5 semantic vs embedding mismatch
-- No.8 missing evidence visibility
-- No.2 interpretation collapse
+It loads the machine-readable specs, parses one debug packet,
+and renders a structured triage summary in a single Colab cell.
+No LLM. No local setup.
 
-Status:
-- placeholder only
-- notebook structure and examples coming soon
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/onestardao/WFGY/blob/main/ProblemMap/GlobalDebugCardExamples/wfgy_rag16_wave0_colab_mvp.ipynb)
+
+**What it demonstrates**
+
+- JSON problem catalog can be consumed programmatically
+- Debug packet structure is tool-friendly and stable
+- Triage output can be reproduced deterministically
+
+**Wave 0 scope**
+
+- Modes: **No.1, No.2, No.5, No.8**
+- Single synthetic failure case
+- Single-cell execution
+
+This is the minimal proof that the Global Debug Card can run as code,
+not just as a human-readable poster.
 
 </details>
 
 ---
 
 <details>
-<summary><b>Machine-Readable JSON MVP (Work in Progress)</b></summary>
+<summary><b>Machine-Readable JSON Specs · Wave 0 (live)</b></summary>
 
-This section is a placeholder for the machine-readable protocol layer.
+<br>
 
-Planned spec set:
-- `wfgy_problem_catalog_v1.json`
-- `wfgy_debug_packet_v1.json`
+This page has a Wave 0 version of the machine-readable protocol for the Global Debug Card.
+The goal is simple:
 
-Intended use:
-- make the 16-mode map consumable by tools
-- let agent runners ingest one debug result as a stable packet
-- support reproducible before/after repair loops
+> The same debugging logic that lives on the poster should also exist as a stable JSON contract.
 
-Status:
-- placeholder only
-- schema, examples, and integration notes coming soon
+Wave 0 ships two JSON specs, both already used by the Colab MVP.
+
+**1. Problem catalog**
+
+- File path:
+  `ProblemMap/specs/wfgy_problem_catalog_v1.json`
+- Direct link:
+  [`wfgy_problem_catalog_v1.json`](https://github.com/onestardao/WFGY/raw/main/ProblemMap/specs/wfgy_problem_catalog_v1.json)
+
+What it contains:
+
+- version and description fields
+- timestamp of last update
+- lane definitions:
+  - `IN` = input / retrieval
+  - `RE` = reasoning / planning
+  - `ST` = state / memory
+  - `OP` = infra / deploy
+- type definitions:
+  - `R` / `P` / `S` / `I` as the main failure families
+- a `wave0_scope` block that documents:
+  - Wave 0 focuses on modes **1, 2, 5, 8**
+  - the catalog is expected to grow in future waves
+- a `modes` array, where each mode includes:
+  - `id` and short code (for example `IN-1`)
+  - lane
+  - default failure type
+  - title and short symptom text
+  - primary and secondary signals
+  - high-level fix focus
+
+This catalog is meant to be **read-only** for tools.
+New modes or fields may be added in the future, but existing keys should remain compatible.
+
+**2. Debug packet**
+
+- File path:
+  `ProblemMap/specs/wfgy_debug_packet_v1.json`
+- Direct link:
+  [`wfgy_debug_packet_v1.json`](https://github.com/onestardao/WFGY/raw/main/ProblemMap/specs/wfgy_debug_packet_v1.json)
+
+What it contains:
+
+- version and description
+- top-level metadata such as `last_updated_utc`
+- a `required_fields` section, defining the minimal keys a packet must include:
+  - `id`
+  - `created_utc`
+  - `environment`
+  - `q`
+  - `e`
+  - `p`
+  - `a`
+- `optional_fields`, including:
+  - `metrics`
+  - `labels`
+  - `triage_notes`
+  - `fix_plan`
+- `field_specs` that describe:
+  - the type of each field
+  - a short description
+  - examples where helpful
+- an `example_packet` which shows:
+  - a realistic RAG failure around a support-ticket summary
+  - concrete values for `q`, `e`, `p`, `a`
+  - a small metrics block
+  - lane / mode labels for Wave 0
+  - a compact fix plan and verification tests
+
+The debug packet spec is designed so that:
+
+- any tool can emit one JSON object that follows this shape
+- the Colab MVP, or a future agent, can read the object and:
+  - infer mode information
+  - print a triage summary
+  - compare before vs after
+
+**Relationship to the poster**
+
+The JSON layer does **not** replace the image.
+Instead, it mirrors the same structure in a way that software can consume:
+
+- the poster is the fastest way for a human and an LLM to triage a new failure
+- the JSON specs are the way for tools to replay and track those failures over time
+
+Wave 0 is intentionally minimal but fully working.
+Later waves are expected to:
+
+- broaden mode coverage
+- add richer metrics and thresholds
+- align with concrete ΔS computation recipes
+- document versioning and compatibility guarantees
 
 </details>
 
@@ -226,10 +320,10 @@ The card is well suited for:
 
 This means it can help automate the early part of debugging very well.
 
-What it does **not** guarantee is a one-click, fully automatic repair for every RAG failure.  
+What it does **not** guarantee is a one-click, fully automatic repair for every RAG failure.
 Some cases still require human review, domain context, or deeper system changes.
 
-The current design goal is not "magic auto-fix."  
+The current design goal is not "magic auto-fix."
 The goal is to turn messy debugging into a repeatable protocol.
 
 </details>
@@ -292,7 +386,7 @@ This makes the first public notebook useful for:
 - before/after comparisons
 - documenting how one failure was improved
 
-The first Colab MVP is intended to prove the protocol works in practice.  
+The first Colab MVP is intended to prove the protocol works in practice.
 It is not meant to solve every failure mode automatically on day one.
 
 </details>
@@ -347,7 +441,7 @@ The planned JSON layer has two main roles:
 2. **Debug packet JSON**  
    A stable result format for one diagnosis run, including the detected type, likely modes, fixes, and verification steps.
 
-The JSON layer does not replace the image workflow.  
+The JSON layer does not replace the image workflow.
 It makes the same logic consumable by software.
 
 </details>
@@ -422,7 +516,7 @@ this card reduces debugging chaos, but humans still decide the final repair stra
 
 No, but embeddings make the protocol stronger.
 
-The full diagnostic model uses structured similarity and boundary reasoning.  
+The full diagnostic model uses structured similarity and boundary reasoning.
 That works best when a fixed embedding model is available.
 
 However, the card is still useful without embeddings:
@@ -471,7 +565,7 @@ Both are two views of the same protocol.
 <details>
 <summary><b>Why not just paste logs into any strong LLM and ask it to debug?</b></summary>
 
-You can do that, and sometimes it helps.  
+You can do that, and sometimes it helps.
 But without a shared protocol, the output is often inconsistent.
 
 Raw free-form debugging usually has these problems:
@@ -576,7 +670,7 @@ This makes it possible to compare:
 - setup A vs setup B
 - manual fix vs automated fix
 
-That is one reason the Colab MVP and JSON MVP matter.  
+That is one reason the Colab MVP and JSON MVP matter.
 They move the card from "diagnostic poster" toward "replayable debugging protocol."
 
 </details>
@@ -599,7 +693,7 @@ Recommended input:
 
 You should remove private or sensitive data before sharing.
 
-A good reproducible example does not need to be large.  
+A good reproducible example does not need to be large.
 It just needs to preserve the failure pattern clearly enough for the protocol to analyze.
 
 That kind of example is ideal for future Colab demos, test cases, and repair-loop comparisons.
