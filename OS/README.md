@@ -125,7 +125,7 @@ Important:
 ---
 
 <details>
-<summary>📋 What problems does TXT OS (with WFGY Engine) actually solve?</summary>
+<summary>📋 What kinds of problems is TXT OS (with WFGY Engine) designed to help with? </summary>
 <br>
 
 > TXT OS, built on the WFGY Engine, is designed to help with several reasoning failures that many LLM pipelines struggle with.  
