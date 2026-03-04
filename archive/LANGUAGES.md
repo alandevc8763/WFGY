@@ -1,3 +1,13 @@
+> **Archived Notice**
+>
+> This directory has been archived and is not actively maintained.
+> The contents are preserved only for historical reference and traceability of earlier prototypes.
+>
+> They are not part of the current recommended usage of this repository and should not be treated as a supported implementation.
+>
+> Please refer to the main documentation of this repository for the current framework and entry points.
+
+
 # 🌐 Multilingual Support | 多語言支援
 
 Welcome! This project aims to be accessible across cultures and languages.
