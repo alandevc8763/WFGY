@@ -99,6 +99,30 @@ This way:
 
 ---
 
+### TU-CH08 · Civilization Crisis (resource limits, coordination failure, collapse risk)
+
+* **Story (EN)** – [`TU-CH08_CivilizationCrisis__story_en.md`](./TU-CH08_CivilizationCrisis__story_en.md)
+* **Science (EN)** – [`TU-CH08_CivilizationCrisis__science_en.md`](./TU-CH08_CivilizationCrisis__science_en.md)
+* **FAQ (EN)** – [`TU-CH08_CivilizationCrisis__faq_en.md`](./TU-CH08_CivilizationCrisis__faq_en.md)
+
+---
+
+### TU-CH09 · AI Tension Partner (AI as reasoning amplifier and tension mirror)
+
+* **Story (EN)** – [`TU-CH09_AITensionPartner__story_en.md`](./TU-CH09_AITensionPartner__story_en.md)
+* **Science (EN)** – [`TU-CH09_AITensionPartner__science_en.md`](./TU-CH09_AITensionPartner__science_en.md)
+* **FAQ (EN)** – [`TU-CH09_AITensionPartner__faq_en.md`](./TU-CH09_AITensionPartner__faq_en.md)
+
+---
+
+### TU-CH10 · Tension 131 Exam (stress-testing the Tension Universe model)
+
+* **Story (EN)** – [`TU-CH10_Tension131Exam__story_en.md`](./TU-CH10_Tension131Exam__story_en.md)
+* **Science (EN)** – [`TU-CH10_Tension131Exam__science_en.md`](./TU-CH10_Tension131Exam__science_en.md)
+* **FAQ (EN)** – [`TU-CH10_Tension131Exam__faq_en.md`](./TU-CH10_Tension131Exam__faq_en.md)
+
+---
+
 ## License and remix policy
 
 All narrative content in `TensionUniverse/Chronicles` is released under the same **MIT License** as the rest of WFGY. That means you are explicitly welcome to:
