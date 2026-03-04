@@ -186,6 +186,150 @@ You only need three moves.
 
 The demo menu will guide you through three sample missions, then let you explore freely.
 
+
+---
+
+## Quick FAQ before you start
+
+<details>
+<summary><strong>What is WFGY 3.0 in one sentence?</strong></summary>
+
+<br/>
+
+> WFGY 3.0 is a TXT-based tension reasoning engine that gives a strong LLM a fixed reasoning language and a 131-problem backbone for handling high-tension questions more structurally.
+>
+> It is designed as an engine layer, not as a one-off prompt.
+
+</details>
+
+<details>
+<summary><strong>Is this a model, a prompt, or a TXT engine?</strong></summary>
+
+<br/>
+
+> It is not a new foundation model.
+>
+> It is also not just a clever prompt.
+>
+> It is a structured TXT engine pack that you upload into a strong LLM so the session can follow a fixed tension language, shared rules, and a stable problem backbone.
+
+</details>
+
+<details>
+<summary><strong>Did this project solve the 131 problems?</strong></summary>
+
+<br/>
+
+> No.
+>
+> The 131 S-class problems are not presented here as solved theorems or hidden answer keys.
+>
+> They are encoded as effective-layer problem structures, observables, and experiments that make hard questions easier to audit, compare, and explore without pretending certainty.
+
+</details>
+
+<details>
+<summary><strong>Do I need math or domain expertise to use it?</strong></summary>
+
+<br/>
+
+> No.
+>
+> You do not need to understand the full math layer to try the engine.
+>
+> If you can describe a real question clearly, you can already use the TXT pack. The deeper math, charters, and experiments are there if you want to inspect how the system is constrained.
+
+</details>
+
+<details>
+<summary><strong>What kind of questions is this built for?</strong></summary>
+
+<br/>
+
+> This is built for questions where the stakes are non-trivial and shallow answers are not enough.
+>
+> Examples include system failure, AI behavior, climate, finance, social coordination, long-horizon decisions, and personal or research questions that involve real tradeoffs, uncertainty, or collapse risk.
+>
+> It is not mainly for trivial fact lookup.
+
+</details>
+
+<details>
+<summary><strong>How is WFGY 3.0 different from WFGY 2.0?</strong></summary>
+
+<br/>
+
+> WFGY 2.0 is the core operational engine used for structured tension control, especially around RAG, agents, and semantic stability.
+>
+> WFGY 3.0 extends that idea into a broader question engine with a 131-problem Tension Universe backbone, more explicit observables, and a larger world-scale reasoning surface.
+>
+> If you want the production-style core engine, start with WFGY 2.0.
+>
+> If you want the 131-problem atlas and the Singularity demo layer, start here.
+
+</details>
+
+<details>
+<summary><strong>What happens after I upload the TXT pack?</strong></summary>
+
+<br/>
+
+> After you upload the TXT pack to a strong LLM and boot it, the session stops behaving like a generic assistant.
+>
+> Instead, it follows the fixed rules, menu flow, and tension language defined by the pack.
+>
+> You are still asking your own questions, but now the model is guided by a stable reasoning scaffold rather than drifting freely.
+
+</details>
+
+<details>
+<summary><strong>Do I need to verify the checksum first?</strong></summary>
+
+<br/>
+
+> Checksum verification is recommended, but not required for a first try.
+>
+> If you verify it, you confirm that the TXT pack matches the published version in this repository.
+>
+> If you skip verification, you can still explore the demo, but it is best treated as an unverified copy.
+
+</details>
+
+<details>
+<summary><strong>Do I need Colab, an API key, or any extra setup to try this?</strong></summary>
+
+<br/>
+
+> For the basic TXT demo, no heavy setup is required.
+>
+> The fastest path is simple:
+>
+> 1. download the TXT pack  
+> 2. upload it to a strong LLM  
+> 3. type `run` and follow the menu
+>
+> Colab and API keys are only needed for specific experiment pages, notebooks, or live MVP runs, not for the main landing-page demo path.
+
+</details>
+
+<details>
+<summary><strong>Where should I start if I only have two minutes?</strong></summary>
+
+<br/>
+
+> Use the shortest path:
+>
+> 1. follow the [120s quickstart](#120s-quickstart)  
+> 2. try one real question you actually care about  
+> 3. if it clicks, then explore the [131-problem index](#navigation-index-for-the-131-s-problems) or the [Tension Universe experiments index](https://github.com/onestardao/WFGY/blob/main/TensionUniverse/Experiments/README.md)
+>
+> If you only want to understand the idea first, read [What is the Singularity demo?](#what-is-the-singularity-demo).
+
+</details>
+
+---
+
+
 ---
 
 <details>
@@ -772,7 +916,7 @@ You do not need to read all 131, but any single file should be enough to see how
 
 <a id="faq-and-participation"></a>
 
-## FAQ and participation
+## Participation and deeper FAQ
 
 ### Join the community
 
@@ -801,7 +945,7 @@ If you want the rules, format, and current open items, start here:
 - [Open experiments board](../Contribute/open-experiments.md)
 - [Contributor credit format](../Contribute/contributor-credit-format.md)
 
-### FAQ
+### Deeper FAQ
 
 **Q1. Did you solve any of these 131 problems?**  
 No. These files describe encodings and experiments, not proofs.
