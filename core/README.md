@@ -255,8 +255,8 @@ At a high level, WFGY 2.0 combines two ingredient families:
 
 For full math detail, see:
 
-* [WFGY formulas](https://github.com/onestardao/WFGY/blob/main/archive/SemanticBlueprint_archive/wfgy_formulas.md)
-* [Drunk Transformer formulas](https://github.com/onestardao/WFGY/blob/main/archive/SemanticBlueprint_archive/drunk_transformer_formulas.md)
+* [WFGY formulas](https://github.com/onestardao/WFGY/blob/main/SemanticBlueprint/wfgy_formulas.md)
+* [Drunk Transformer formulas](https://github.com/onestardao/WFGY/blob/main/SemanticBlueprint/drunk_transformer_formulas.md)
 
 ### 4.1 The seven-step reasoning chain
 
