@@ -8,7 +8,6 @@
 
 > **Quick Nav**  
 > [Getting Started (Practical)](./getting-started.md) ·
-> [Problem Map 2.0 (RAG)](./rag-architecture-and-recovery.md) ·
 > [Patterns Index](./patterns/README.md) ·
 > [Examples](./examples/README.md) ·
 > [Eval](./eval/README.md) ·
