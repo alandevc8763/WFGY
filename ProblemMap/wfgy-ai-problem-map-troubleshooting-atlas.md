@@ -49,3 +49,19 @@ Important:
 
 ---
 </details>
+
+# Problem Map · AI Troubleshooting Atlas
+
+🧭 **Problem Map 3.0** is the next evolution of the WFGY troubleshooting system.
+
+While **Problem Map 1.0** introduced the 16-problem failure checklist for RAG systems,  
+and **Problem Map 2.0** focused on recovery workflows,  
+this new layer expands the idea into a **global troubleshooting atlas for AI systems**.
+
+The goal is to provide a clearer way to diagnose system failures, patterns, and debugging paths across different AI pipelines.
+
+⚙️ **Status:** Work in progress
+
+More structure, visual tools, and debugging protocols are currently being prepared.
+
+🚧 **Coming soon. Stay tuned.**
