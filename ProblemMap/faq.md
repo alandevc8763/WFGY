@@ -6,7 +6,6 @@ Short, practical answers to the questions we get every day. This FAQ merges prev
 > [Getting Started](./getting-started.md) ·
 > [Grandma Clinic (1–16)](./GrandmaClinic/README.md) ·
 > [Problem Map 1–16 Index](./README.md) ·
-> [RAG Map 2.0](./rag-architecture-and-recovery.md) ·
 > [Retrieval Playbook](./retrieval-playbook.md) ·
 > [Chunking](./GlobalFixMap/Chunking/README.md) ·
 > [Embeddings](./GlobalFixMap/Embeddings/README.md) ·
