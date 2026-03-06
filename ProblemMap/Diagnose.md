@@ -8,7 +8,6 @@ Each entry links to the corresponding solution page in the WFGY Problem Map.
 
 ## Quick Nav
 [Problem Map 1.0](./README.md) ·
-[RAG Problem Map 2.0](./rag-architecture-and-recovery.md) ·
 [Semantic Clinic Index](./SemanticClinicIndex.md) ·
 [Retrieval Playbook](./retrieval-playbook.md) ·
 [Rerankers](./rerankers.md) ·
