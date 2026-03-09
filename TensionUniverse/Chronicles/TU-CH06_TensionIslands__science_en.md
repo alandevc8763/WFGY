@@ -4,6 +4,9 @@
 > This is speculative science fiction, not a proven physical theory.  
 > “Tension Universe” is a fictional framing device. All stories are MIT licensed, you are welcome to remix and build freely.
 
+
+<img width="1536" height="1024" alt="Tension Islands (2)" src="https://github.com/user-attachments/assets/b9d51e59-872d-49c0-918e-3b8caf879eb4" />
+
 ---
 
 ## 1 | What this file is doing
