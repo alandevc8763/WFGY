@@ -55,11 +55,15 @@ All files are plain text (`.md`), so they can be versioned, remixed, and quoted 
 
 * **Story (EN)** – [`TU-CH05_QuantumObserver__story_en.md`](./TU-CH05_QuantumObserver__story_en.md)
 * **Science (EN)** – [`TU-CH05_QuantumObserver__science_en.md`](./TU-CH05_QuantumObserver__science_en.md)
-* **FAQ (EN)** – [`TU-CH05_QuantumObserver__faq_en.md`](./TU-CH04_QuantumObserver__faq_en.md)
+* **FAQ (EN)** – [`TU-CH05_QuantumObserver__faq_en.md`](./TU-CH05_QuantumObserver__faq_en.md)
 
 ---
 
-temp
+### TU-CH06 · Tension Islands (life, consciousness, free will)
+
+* **Story (EN)** – [`TU-CH06_TensionIslands__story_en.md`](./TU-CH06_TensionIslands__story_en.md)
+* **Science (EN)** – [`TU-CH06_TensionIslands__science_en.md`](./TU-CH06_TensionIslands__science_en.md)
+* **FAQ (EN)** – [`TU-CH06_TensionIslands__faq_en.md`](./TU-CH06_TensionIslands__faq_en.md)
 
 ---
 
