@@ -31,9 +31,15 @@ class WFGYSemanticFirewall(BaseCallbackHandler):
         cos_theta = dot_product / (norm_a * norm_b)
         return 1.0 - cos_theta
 
+    def on_chain_start(self, serialized: Dict[str, Any], inputs: Dict[str, Any], **kwargs: Any) -> Any:
+        """Capture query embedding early — runs before on_retriever_end."""
+        query_text = inputs.get('query') or inputs.get('question') or inputs.get('input', '')
+        if query_text and not self.last_query_embedding:
+            self.last_query_embedding = self.embedding_model.embed_query(str(query_text))
+
     def on_llm_start(self, serialized: Dict[str, Any], prompts: List[str], **kwargs: Any) -> Any:
-        # Cache query embedding for ΔS calculation later
-        if prompts:
+        # Fallback: capture query embedding if not yet set by on_chain_start
+        if prompts and not self.last_query_embedding:
             self.last_query_embedding = self.embedding_model.embed_query(prompts[0])
 
     def on_retriever_end(self, documents: List[Any], **kwargs: Any) -> Any:

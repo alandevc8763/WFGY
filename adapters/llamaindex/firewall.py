@@ -50,19 +50,20 @@ class WFGYSemanticFirewallLlama:
                 print(f"[WFGY-LlamaIndex] Answer ΔS: {delta_s:.4f}")
 
             # Analyze Source Nodes
-            if hasattr(response, 'source_nodes'):
+            if hasattr(response, 'source_nodes') and response.source_nodes:
                 source_delta_s = []
                 for node in response.source_nodes:
                     node_text = node.node.get_content()
                     node_embedding = self.embedding_model.get_text_embedding(node_text)
                     source_delta_s.append(self._calculate_delta_s(query_embedding, node_embedding))
                 
-                avg_source_delta_s = sum(source_delta_s) / len(source_delta_s)
-                if self.verbose:
-                    print(f"[WFGY-LlamaIndex] Avg Source ΔS: {avg_source_delta_s:.4f}")
+                if source_delta_s:
+                    avg_source_delta_s = sum(source_delta_s) / len(source_delta_s)
+                    if self.verbose:
+                        print(f"[WFGY-LlamaIndex] Avg Source ΔS: {avg_source_delta_s:.4f}")
 
-                if avg_source_delta_s >= self.threshold_danger:
-                    print(f"⚠️ [WFGY] DANGER ZONE: Source Drift (ΔS={avg_source_delta_s:.4f})")
+                    if avg_source_delta_s >= self.threshold_danger:
+                        print(f"⚠️ [WFGY] DANGER ZONE: Source Drift (ΔS={avg_source_delta_s:.4f})")
 
             return response
 
