@@ -2,27 +2,22 @@
 AI_NOTE_START
 
 Document role:
-This file is the README for Demo 3 of the official flagship demo pack.
+This file is the official README for Demo 3 of the flagship runnable demo pack.
 
 How to use this file:
 1. Read this file before opening the notebook.
-2. Treat this demo as the flagship proof that some failures must be repaired through execution closure first, not through continuity repair or generic reasoning repair first.
+2. Treat this demo as the flagship proof that some failures must be repaired through execution closure first.
 3. Use this file to understand:
    - why this case belongs to F4
    - why it is not primarily F3
    - what the first repair move is
-   - what replay mode and live rerun mode each prove
-4. Read together with:
-   - [Atlas Final Freeze v1](../../../../atlas-final-freeze-v1.md)
-   - [Canonical Casebook v1](../../../../canonical-casebook-v1.md)
-   - [Family Fix Surface v1](../../family-fix-surface-v1.md)
-   - [Atlas to WFGY Bridge v1](../../atlas-to-wfgy-bridge-v1.md)
-   - [Misrepair Patterns v1](../../misrepair-patterns-v1.md)
+   - what replay mode is meant to prove
 
 What this file is:
 - The official README for Demo 3
 - A proof-of-use page for execution-first repair
 - A teaching page for F4 execution and contract failures
+- A replay-first MVP companion for the notebook
 
 What this file is not:
 - Not the atlas core
@@ -33,8 +28,8 @@ What this file is not:
 Reading discipline for AI:
 - Preserve the distinction between execution closure failure, continuity failure, and diagnosability pressure.
 - Do not collapse this case into generic “the pipeline is broken” language.
-- Do not treat replay mode as weaker than live rerun mode.
 - Route first, then repair.
+- Treat replay mode as a valid teaching layer, not as a weaker substitute.
 
 AI_NOTE_END
 -->
@@ -43,6 +38,11 @@ AI_NOTE_END
 
 ## Problem Map 3.0 Troubleshooting Atlas
 ## Official flagship demo for execution-first repair
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/onestardao/WFGY/blob/Atlas/ProblemMap/Atlas/Fixes/official/demos/demo-f4-execution-closure/demo_03_f4_execution_closure_replay.ipynb)
+
+**Replay-only MVP**  
+**No API key required**
 
 This is the third flagship demo in the official runnable demo pack.
 
@@ -57,7 +57,7 @@ People often say:
 
 Sometimes those explanations are tempting.
 
-But in a large number of real cases, the first failure is simpler and more structural:
+But in many real cases, the first failure is simpler and more structural:
 
 > the workflow skeleton failed to close  
 > a readiness gate was skipped  
@@ -71,13 +71,13 @@ It shows that once a case is routed as **F4 Execution & Contract Integrity**, th
 
 ---
 
-## 1. What this demo proves 🧪
+## 1. What this demo proves
 
 This demo proves four things.
 
 ### A. Some failures are caused by sequence, not intelligence
 
-A system can fail even if the model is perfectly capable of the task in principle.
+A system can fail even if the model is fully capable of the task in principle.
 
 The reason may be:
 
@@ -87,10 +87,10 @@ The reason may be:
 - the system advanced in the wrong order
 - a liveness path stalled before completion
 
-That is not a continuity-first error.
-That is an execution-first error.
+That is not a continuity-first failure.  
+That is an execution-first failure.
 
-### B. The correct route changes the first repair move
+### B. Correct routing changes the first repair move
 
 If the case is routed correctly into **F4**, the first repair move becomes:
 
@@ -104,19 +104,22 @@ This is different from trying to repair memory, role persistence, or generic rea
 
 ### C. Replay mode is enough to teach the pattern
 
+This demo is intentionally **replay-first**.
+
 A user should be able to understand the logic of the failure without running anything.
 
 The replay artifacts should make visible that the task failed because the operational skeleton broke, not because the model lacked raw capability.
 
-### D. Live rerun remains optional but useful
+### D. This MVP does not require live mode
 
-If the user wants to reproduce the same pattern in a runnable workflow, live mode can show how a small structural repair changes the result.
+For this first release, replay mode is enough.
 
-But live execution is not required to understand the lesson.
+The point of this demo is not notebook realism.  
+The point is to make the **before / after execution-state shift** easy to inspect and easy to teach.
 
 ---
 
-## 2. Family route 🧭
+## 2. Family route
 
 ### Primary family
 
@@ -125,10 +128,6 @@ But live execution is not required to understand the lesson.
 ### Secondary family
 
 **F3 · State & Continuity Integrity**
-
-### Outer pressure
-
-Possible additional pressure may later involve **F5** if the execution break is poorly visible, but the flagship teaching version should remain centered on F4.
 
 ### Why F4 is primary
 
@@ -152,22 +151,15 @@ Typical forms include:
 
 ### Best current fit
 
-The flagship version may center on one of the following F4 anchors:
-
-- **F4_N01 Bootstrap Ordering Failure**
-- **F4_N03 Pre-Readiness Execution Failure**
-- **F4 core subtree · Bridge Integrity Failure**
-- **F4 core subtree · Cross-Layer Liveness Degradation**
-
 For the cleanest MVP version, the recommended center is:
 
 **F4_N03 Pre-Readiness Execution Failure**
 
-because it is easy to teach and visually obvious.
+This makes the structural failure easy to teach and visually obvious.
 
 ---
 
-## 3. Why not neighbor ❌
+## 3. Why not F3 first
 
 The main tempting neighboring cut is **F3**.
 
@@ -177,7 +169,7 @@ A user may observe:
 
 - the agent seems inconsistent
 - state seems lost
-- thread seems broken
+- the thread looks broken
 - role persistence looks weak
 
 But this demo is not mainly about persistence failure.
@@ -190,11 +182,11 @@ That means the first failure lies in execution closure, not in continuity thread
 
 ### Wrong cut
 
-- “the system mainly failed because memory or continuity was unstable”
+“This is mainly a memory or continuity problem.”
 
 ### Better cut
 
-- “the system mainly failed because the workflow skeleton broke before continuity became the main issue”
+“This is mainly an execution-closure problem with continuity pressure at the edge.”
 
 That distinction matters because the first repair move changes immediately.
 
@@ -202,9 +194,9 @@ If you cut too early to F3, you may waste time strengthening persistence when th
 
 ---
 
-## 4. Baseline failure 🧱
+## 4. Baseline failure
 
-The baseline case should be small, readable, and mechanically clear.
+The baseline case is intentionally small, readable, and mechanically clear.
 
 ### Core pattern
 
@@ -235,12 +227,12 @@ The user should be able to see:
 
 Do not make the workflow too complicated.
 
-The goal is not to simulate a giant orchestration framework.
+The goal is not to simulate a giant orchestration framework.  
 The goal is to make one execution-first failure pattern easy to teach.
 
 ---
 
-## 5. First repair move 🔧
+## 5. First repair move
 
 Once the case is routed to F4, the first repair move should be structural and explicit.
 
@@ -281,7 +273,7 @@ That is the teaching core of this demo.
 
 ---
 
-## 6. Optional WFGY 3.0 escalation 🌊
+## 6. Optional WFGY 3.0 escalation
 
 This demo can teach its core lesson without deeper escalation.
 
@@ -317,16 +309,16 @@ The correct order remains:
 3. reassess the case
 4. escalate into deeper WFGY exploration if needed
 
-The atlas is still the router.
+The atlas is still the router.  
 WFGY 3.0 is the deeper experimental engine.
 
 ---
 
-## 7. Replay mode ▶️
+## 7. Replay mode
 
 Replay mode is the default public reading mode.
 
-It should require no API key and no notebook execution.
+It requires no API key and no notebook execution.
 
 ### Replay mode should show
 
@@ -353,75 +345,15 @@ Replay mode proves that:
 
 A strong F4 demo should let a reader immediately feel:
 
-> “ah, the system moved too early”
+> the system moved too early
 
 If that feeling is not visible in replay mode, the demo is weak.
 
----
-
-## 8. Live rerun mode ⚙️
-
-Live rerun mode is optional.
-
-It exists for users who want to reproduce the same pattern through a small runnable flow.
-
-### Live rerun should do
-
-- load the workflow case
-- show the baseline order or gate condition
-- run the broken baseline path
-- apply the first repair move
-- run the repaired path
-- compare baseline and repaired execution traces
-
-### Live rerun should not pretend to do
-
-- full production orchestration
-- giant workflow simulation
-- universal workflow robustness proof
-- final contract-theory completeness
-
-It is a reproduction layer, not a full framework replacement.
-
-### Live rerun design rule
-
-If realism and clarity conflict, clarity should win.
-
-The point is to teach one closure failure pattern, not to recreate a whole operations stack.
+This is enough for the first public MVP.
 
 ---
 
-## 9. API key note 🔐
-
-Some live variants may require an API key.
-
-If so, the rule stays the same:
-
-- no hard-coded keys
-- no saved secrets in the repository
-- key entry happens only at run time
-- replay mode remains readable without any secret
-
-### Important note for users
-
-This demo is meant for **understanding and reproduction**.
-
-You do **not** need to run the notebook in order to understand the lesson.
-
-A strong execution demo should still teach through:
-
-- README
-- fixtures
-- replay outputs
-- before / after workflow comparison
-
-The live rerun is optional.
-
----
-
-## 10. Files in this folder 📂
-
-This demo folder should contain the following assets.
+## 8. Files in this folder
 
 ### Required
 
@@ -429,12 +361,13 @@ This demo folder should contain the following assets.
 - `input_case.json`
 - `replay_outputs.json`
 - `expected_output.json`
+- `demo_03_f4_execution_closure_replay.ipynb`
 
-### Recommended
+### Optional future additions
 
-- `demo_f4_execution.ipynb`
-- optional workflow notes
-- optional helper references from the shared folder
+- workflow notes
+- helper references from the shared folder
+- patch notes for stronger closure contrast
 
 ### File roles
 
@@ -447,12 +380,12 @@ Contains the baseline broken path, route explanation, first repair move, and rep
 #### `expected_output.json`
 Contains the clean target structure for what the demo is trying to make visible.
 
-#### notebook
-Contains the optional live reproduction flow.
+#### `demo_03_f4_execution_closure_replay.ipynb`
+Contains the replay-first notebook version of the demo, runnable in Colab.
 
 ---
 
-## 11. Expected outcome ✅
+## 9. Expected outcome
 
 If the demo works, the user should walk away with the following understanding:
 
@@ -469,7 +402,7 @@ That is enough.
 
 ---
 
-## 12. Limits of this demo 🧱
+## 10. Limits of this demo
 
 This demo has real limits, and those limits should be stated clearly.
 
@@ -487,12 +420,12 @@ This demo has real limits, and those limits should be stated clearly.
 - that route-first diagnosis changes the first repair move
 - that structural closure can be demonstrated cleanly and teachably
 
-These are already strong claims.
+These are already strong claims.  
 There is no need to overclaim.
 
 ---
 
-## 13. Community extension ideas 🌱
+## 11. Community extension ideas
 
 This demo is also a seed template for future community work.
 
@@ -539,16 +472,9 @@ That is why this is the third flagship demo.
 
 ---
 
-## Closing note ✨
+## Back to the main page
 
-This demo is intentionally compact.
+Read the full product page here:  
+[Problem Map 3.0 Troubleshooting Atlas](https://github.com/onestardao/WFGY/blob/main/ProblemMap/wfgy-ai-problem-map-troubleshooting-atlas.md)
 
-Its job is not to simulate every workflow platform.
-Its job is to make one key pattern obvious:
-
-- the system advanced too early
-- the skeleton broke first
-- repair should target closure before interpretation or persistence
-
-If that becomes clear, the atlas has already done something valuable.
-
+If you like the project, star the repo ⭐
