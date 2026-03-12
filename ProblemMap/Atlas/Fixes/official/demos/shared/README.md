@@ -120,6 +120,66 @@ Right now, that means:
 
 ---
 
+## Current files in this folder 📂
+
+At the current MVP stage, this folder already has a small real support layer.
+
+### `README.md`
+
+This file.
+
+Purpose:
+
+- define folder role
+- define discipline
+- define scope
+- define boundaries
+
+### `demo_utils.py`
+
+Current purpose:
+
+- lightweight reusable helper functions
+- JSON loading
+- compact output formatting
+- simple route rendering
+- small replay / live mode helpers
+
+This file is intended to be imported by notebooks.  
+It is a support module, not a standalone demo.
+
+### `routing_schema.md`
+
+Current purpose:
+
+- document the stable output fields used across demo notebooks
+- explain what each output field means
+- keep naming consistent across demos
+
+This file helps the official demos stay aligned without flattening away their teaching differences.
+
+---
+
+## How notebooks should use this folder
+
+The shared layer is meant to be used in a small and explicit way.
+
+Typical use looks like this:
+
+1. a notebook stays inside its own demo folder
+2. the notebook imports a small helper from `shared/`
+3. the notebook still loads its own local JSON fixtures
+4. the teaching logic remains inside the notebook and that demo’s README
+
+That means shared code should support the notebook, not replace it.
+
+In short:
+
+> shared provides the small tools  
+> each demo still tells its own story
+
+---
+
 ## What belongs in `shared/`
 
 The following types of assets belong here.
