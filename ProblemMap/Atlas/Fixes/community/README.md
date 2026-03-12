@@ -31,7 +31,7 @@ Reading discipline for AI:
 AI_NOTE_END
 -->
 
-# Community Fix Lab 🤝
+# Community Fix Lab
 
 ## Problem Map 3.0 Troubleshooting Atlas
 ## Community-contributed fixes, demos, and runnable assets
@@ -62,12 +62,12 @@ Short version:
 
 ---
 
-## What belongs here 📦
+## What belongs here
 
 Good community contributions include things like:
 
 - Colab demos
-- JSON input / output fixtures
+- JSON input and output fixtures
 - prompt templates
 - workflow repair recipes
 - benchmark reruns
@@ -84,14 +84,14 @@ A good contribution should be:
 
 ---
 
-## What does not belong here 🚫
+## What does not belong here
 
 Please do **not** use this folder for:
 
 - random notes with no routing context
 - files with no explanation
 - giant dumps of logs without structure
-- vague “AI fix ideas” with no case framing
+- vague fix ideas with no case framing
 - materials that claim to replace the official atlas core
 - materials that pretend to be official without review
 
@@ -99,7 +99,7 @@ This folder should grow, but it should not become chaos.
 
 ---
 
-## Official vs community ✅
+## Official vs community
 
 ### Official fixes
 
@@ -134,7 +134,7 @@ The community layer helps the system grow faster.
 
 ---
 
-## Recommended folder layout 🗂️
+## Folder layout
 
 Suggested contribution areas:
 
@@ -145,11 +145,41 @@ Suggested contribution areas:
 - [Benchmark Reruns](./benchmark-reruns/)
 - [Reproduction Packs](./reproduction-packs/)
 
-If a contribution does not fit one of these, add a short note explaining where it belongs and why.
+Use the folder that best matches the artifact you are contributing.
+
+If a contribution does not fit one of these clearly, add a short note explaining where it belongs and why.
 
 ---
 
-## Minimum contribution rule 🧠
+## What each folder is for
+
+### Colab
+
+Use this folder for notebook-based demos, walkthroughs, replay notebooks, and small runnable teaching assets.
+
+### JSON
+
+Use this folder for structured fixtures such as input cases, replay outputs, expected outputs, and compact machine-readable packs.
+
+### Prompts
+
+Use this folder for route-aware prompt packs, repair prompts, and prompt-based troubleshooting assets.
+
+### Workflows
+
+Use this folder for step-by-step repair sequences, escalation flows, and troubleshooting recipes.
+
+### Benchmark Reruns
+
+Use this folder for compact reruns, before-and-after comparisons, and route-aware benchmark slices.
+
+### Reproduction Packs
+
+Use this folder for portable bundles that help others quickly reproduce one case, one repair pattern, or one troubleshooting result.
+
+---
+
+## Minimum contribution rule
 
 A community contribution should usually include five things:
 
@@ -163,7 +193,7 @@ That is enough to keep the contribution useful.
 
 ---
 
-## Suggested contribution flow 🔄
+## Suggested contribution flow
 
 A simple contribution flow should look like this:
 
@@ -206,7 +236,7 @@ Short version:
 
 ---
 
-## Before contributing 📚
+## Before contributing
 
 Please read these first:
 
@@ -215,18 +245,20 @@ Please read these first:
 - [Atlas to WFGY Bridge v1](../official/atlas-to-wfgy-bridge-v1.md)
 - [Misrepair Patterns v1](../official/misrepair-patterns-v1.md)
 - [Contribution Checklist](../templates/contribution-checklist.md)
+- [Fix Recipe Template](../templates/fix-recipe-template.md)
 
 This helps keep community work aligned with the atlas instead of drifting away from it.
 
 ---
 
-## Good first contributions 🌱
+## Good first contributions
 
 If you want an easy first contribution, start with one of these:
 
 - one small Colab demo
 - one clean JSON fixture pair
 - one prompt-based repair example
+- one short workflow recipe
 - one benchmark rerun example
 - one short reproduction pack
 
@@ -234,7 +266,7 @@ Small, clear contributions are much better than giant messy ones.
 
 ---
 
-## Relationship to WFGY 3.0 🌊
+## Relationship to WFGY 3.0
 
 This folder can connect to WFGY 3.0, but it is not the same as the WFGY engine layer.
 
@@ -242,7 +274,7 @@ A community contribution may:
 
 - use WFGY 3.0 prompts
 - demonstrate a deeper exploration path
-- compare first repair vs deeper WFGY escalation
+- compare first repair versus deeper WFGY escalation
 
 But it should still explain clearly:
 
@@ -254,7 +286,7 @@ That keeps the bridge clean.
 
 ---
 
-## Review standard 🔍
+## Review standard
 
 A community contribution is much more likely to be accepted if it is:
 
@@ -265,8 +297,24 @@ A community contribution is much more likely to be accepted if it is:
 - explicit about expected output
 - honest about limitations
 
-Messy power is still messy.
+Messy power is still messy.  
 Clean small contributions are more valuable.
+
+---
+
+## Growth rule
+
+This folder should grow through structured additions, not through random accumulation.
+
+That means:
+
+- route first
+- place the artifact in the right folder
+- explain what it does
+- state what it does not do
+- keep the distinction between official and community layers clear
+
+Structured growth is the goal.
 
 ---
 
@@ -276,7 +324,7 @@ Clean small contributions are more valuable.
 
 ---
 
-## Closing note ✨
+## Closing note
 
 The atlas should not grow only through one author.
 
