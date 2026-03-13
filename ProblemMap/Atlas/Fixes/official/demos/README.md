@@ -62,6 +62,10 @@ If the atlas can show that different routing decisions lead to different repair 
 
 That is the job of this folder.
 
+This folder should be read as the **official public demo surface** of the first Atlas fix release.
+It is not a giant benchmark zoo.
+It is a compact, high-signal proof layer.
+
 ---
 
 ## Current MVP status
@@ -86,6 +90,8 @@ That means:
 
 This is not a shortcut.
 It is a deliberate MVP teaching decision.
+
+At the current release stage, this pack should be treated as the **official recommended first demo set** for route-first repair.
 
 ---
 
@@ -119,6 +125,8 @@ The rule is simple:
 
 > original notebooks are preserved as first-pass MVP assets  
 > v2 notebooks are the cleaner recommended replay versions for Demo 2, Demo 3, and Demo 4
+
+If multiple notebooks exist for the same demo, the README and this page should always make the recommended entry point explicit.
 
 ---
 
@@ -601,6 +609,8 @@ The folder [shared](./shared/) contains the small official support layer for:
 - optional run-time utilities
 
 This keeps each notebook smaller and easier to audit.
+
+If multiple notebooks exist in one demo folder, the README should clearly identify which one is the recommended official entry point.
 
 ---
 
