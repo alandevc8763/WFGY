@@ -39,7 +39,7 @@ AI_NOTE_END
 ## Problem Map 3.0 Troubleshooting Atlas
 ## Official flagship demo for diagnosability-first repair
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/onestardao/WFG/github/onestardao/WFGY/blob/Atlas/ProblemMap/Atlas/Fixes/official/demos/demo-f5-observability-first/demo_02_f5_observability_first_replay_v2.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/onestardao/WFGY/blob/Atlas/ProblemMap/Atlas/Fixes/official/demos/demo-f5-observability-first/demo_02_f5_observability_first_replay_v2.ipynb)
 
 **Replay-only MVP**  
 **No API key required**
@@ -131,8 +131,8 @@ This is different from trying to fix workflow logic or model behavior too early.
 
 This demo is intentionally **replay-first**.
 
-The user should be able to understand the case without live execution.
-The point is not “the answer became magically better.”
+The user should be able to understand the case without live execution.  
+The point is not “the answer became magically better.”  
 The point is:
 
 > the failure became legible
@@ -160,7 +160,7 @@ It is not trying to simulate a full observability platform.
 
 The main failure is that the system still cannot stably expose enough structure to diagnose the problem correctly.
 
-The workflow may indeed be broken.
+The workflow may indeed be broken.  
 But the first broken invariant is still:
 
 > the failure path cannot yet be seen, traced, or audited well enough
@@ -214,7 +214,7 @@ If you cut too early to F4, you are likely to start rebuilding the machine befor
 
 The baseline case is intentionally simple and realistic.
 
-A workflow produces a bad result.
+A workflow produces a bad result.  
 The operator can observe that:
 
 - the result is wrong
@@ -374,7 +374,7 @@ This demo has real limits, and those limits should be stated clearly.
 - that route-first repair changes what the operator does next
 - that diagnosability can itself be a first-class repair target
 
-These are already strong claims.
+These are already strong claims.  
 There is no need to inflate them.
 
 ---
