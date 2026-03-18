@@ -1,8 +1,60 @@
-# Auto Repair Roadmap v1
+<!--
+AI_NOTE_START
 
-## 0. Document status
+Document role:
+This file defines the first formal roadmap for the Auto Repair layer inside the Atlas Fixes package.
 
-This document defines the first formal roadmap for the `auto-repair/` layer.
+How to use this file:
+1. Read this page after the Auto Repair v1 README if you want the staged growth view.
+2. Use this page to understand what is already established, what should come next, and what is intentionally delayed.
+3. Use this page together with:
+   - [Auto Repair v1 README](./README.md)
+   - [Auto Repair Architecture v1](./auto-repair-architecture-v1.md)
+   - [Repair Action Schema v1](./repair-action-schema-v1.md)
+   - [Repair Validation Loop v1](./repair-validation-loop-v1.md)
+   - [Rollback Policy v1](./rollback-policy-v1.md)
+
+What this file is:
+- The roadmap page for Auto Repair v1
+- A staged build plan for growing from architecture into controlled repair capability
+- A boundary document for sequencing future work safely
+
+What this file is not:
+- Not proof that Auto Repair is already fully implemented
+- Not a production execution plan
+- Not a claim that all roadmap stages should be rushed at once
+- Not a replacement for the architecture, planner, validation, or rollback documents
+
+Reading discipline for AI:
+- Preserve the staged nature of the roadmap.
+- Do not collapse future stages into current maturity claims.
+- Keep the distinction between established foundation and future execution layers visible.
+- Treat this page as a build-order contract, not as a hype page.
+
+AI_NOTE_END
+-->
+
+# Auto Repair Roadmap v1 🗺️
+
+## The staged growth path for the Auto Repair layer
+
+Quick links:
+
+- [Back to Auto Repair v1 README](./README.md)
+- [Back to Fixes Hub](../README.md)
+- [Back to Official Fixes](../official/README.md)
+- [Back to Atlas landing page](../../../wfgy-ai-problem-map-troubleshooting-atlas.md)
+- [Back to AI Eval Evidence](../../ai-eval-evidence.md)
+- [Back to Atlas Hub](../../README.md)
+- [Get the Atlas Router TXT](../../troubleshooting-atlas-router-v1.txt)
+- [Open Auto Repair Architecture v1](./auto-repair-architecture-v1.md)
+- [Open Repair Action Schema v1](./repair-action-schema-v1.md)
+- [Open Repair Validation Loop v1](./repair-validation-loop-v1.md)
+- [Open Rollback Policy v1](./rollback-policy-v1.md)
+
+---
+
+If the Auto Repair architecture page explains **how the system should be structured**, this roadmap explains **how that system should grow in the right order**. 🧭
 
 Its purpose is to make three things explicit:
 
@@ -14,8 +66,38 @@ Auto Repair Roadmap v1 does **not** claim that Auto Repair is already fully impl
 
 It claims something narrower and more useful:
 
-> the first-stage architecture for Atlas-based repair has been defined,
-> and the next build sequence is now clear.
+> the first-stage architecture for Atlas-based repair has been defined,  
+> and the next build sequence is now clear
+
+---
+
+## Quick start 🚀
+
+### I want the shortest roadmap reading
+
+Use this path:
+
+1. read this roadmap
+2. confirm the current baseline
+3. check Stage 1
+4. check what is intentionally delayed
+
+### I want the build-order reading
+
+Use this path:
+
+1. [Auto Repair Architecture v1](./auto-repair-architecture-v1.md)
+2. [Repair Action Schema v1](./repair-action-schema-v1.md)
+3. [Repair Validation Loop v1](./repair-validation-loop-v1.md)
+4. [Rollback Policy v1](./rollback-policy-v1.md)
+5. return to this roadmap and read Stage 0 to Stage 3 in order
+
+Short version:
+
+> foundation first  
+> planner second  
+> constrained semi-auto third  
+> validation-driven loop after that ✨
 
 ---
 
@@ -33,11 +115,11 @@ It should help answer:
 
 This roadmap should be read together with:
 
-- `README.md`
-- `auto-repair-architecture-v1.md`
-- `repair-action-schema-v1.md`
-- `repair-validation-loop-v1.md`
-- `rollback-policy-v1.md`
+- [README](./README.md)
+- [Auto Repair Architecture v1](./auto-repair-architecture-v1.md)
+- [Repair Action Schema v1](./repair-action-schema-v1.md)
+- [Repair Validation Loop v1](./repair-validation-loop-v1.md)
+- [Rollback Policy v1](./rollback-policy-v1.md)
 
 Together, those documents define the first foundation layer.
 
@@ -52,6 +134,7 @@ At the current stage, Auto Repair has a **first formal planning foundation**, no
 The following are already established:
 
 ### A. System positioning
+
 Auto Repair has been defined as the bridge between:
 
 - Atlas diagnosis
@@ -59,6 +142,7 @@ Auto Repair has been defined as the bridge between:
 - deeper WFGY repair
 
 ### B. Architecture
+
 The core repair workflow has been defined as:
 
 ```text
@@ -89,11 +173,24 @@ It is now a real first-stage system foundation.
 
 ---
 
-## 3. What is complete in v1 foundation
+## 3. Roadmap quick map 🗂️
 
-The following should now be treated as complete enough for first-stage use:
+| Stage   | Main goal                           | Current reading          |
+| ------- | ----------------------------------- | ------------------------ |
+| Stage 0 | foundation layer                    | established              |
+| Stage 1 | repair planner layer                | next major build step    |
+| Stage 2 | constrained semi-auto repair layer  | later and tightly scoped |
+| Stage 3 | validation-driven repair loop layer | harder future stage      |
 
-### Complete enough now
+This page is the right place when the question is **what should be built next and in what order**, not just what Auto Repair means conceptually.
+
+---
+
+## 4. What is complete in v1 foundation
+
+The following should now be treated as complete enough for first-stage use.
+
+### Complete enough now ✅
 
 * purpose and scope definition
 * architecture framing
@@ -103,7 +200,7 @@ The following should now be treated as complete enough for first-stage use:
 * family suitability guidance
 * phase-based growth model
 
-### Not complete yet
+### Not complete yet ⏳
 
 * repair planner implementation
 * executable repair action library
@@ -115,11 +212,11 @@ The following should now be treated as complete enough for first-stage use:
 This is the correct maturity reading:
 
 > the architecture layer is established,
-> but execution-layer buildout remains future work.
+> but execution-layer buildout remains future work
 
 ---
 
-## 4. Roadmap overview
+## 5. Roadmap overview
 
 The recommended roadmap is divided into four stages.
 
@@ -145,9 +242,7 @@ The system should not jump straight to later-stage automation.
 
 ---
 
-## 5. Stage 0
-
-## Foundation layer
+## 6. Stage 0 · Foundation layer
 
 ### Goal
 
@@ -157,11 +252,11 @@ Create a stable conceptual and structural base for all future Auto Repair work.
 
 Stage 0 includes:
 
-* README
-* architecture
-* repair action schema
-* validation loop
-* rollback policy
+* [README](./README.md)
+* [Auto Repair Architecture v1](./auto-repair-architecture-v1.md)
+* [Repair Action Schema v1](./repair-action-schema-v1.md)
+* [Repair Validation Loop v1](./repair-validation-loop-v1.md)
+* [Rollback Policy v1](./rollback-policy-v1.md)
 * family suitability notes
 * folder growth path
 
@@ -182,9 +277,7 @@ This stage should now be treated as the completed foundation of Auto Repair v1.
 
 ---
 
-## 6. Stage 1
-
-## Repair planner layer
+## 7. Stage 1 · Repair planner layer
 
 ### Goal
 
@@ -216,9 +309,9 @@ A first planner should be able to produce:
 
 Recommended files:
 
-* `repair-planner-spec-v1.md`
-* `repair-planner-prompt-v1.md`
-* `repair-plan-schema-v1.json`
+* [Repair Planner Spec v1](./repair-planner-spec-v1.md)
+* [Repair Planner Prompt v1](./repair-planner-prompt-v1.md)
+* [Repair Plan Schema v1](./repair-plan-schema-v1.json)
 
 ### Why this stage is the next best move
 
@@ -252,9 +345,7 @@ Stage 1 can be considered successful when:
 
 ---
 
-## 7. Stage 2
-
-## Constrained semi-auto repair layer
+## 8. Stage 2 · Constrained semi-auto repair layer
 
 ### Goal
 
@@ -290,7 +381,7 @@ It is the stage for constrained, auditable repair application.
 
 Recommended files:
 
-* `semi-auto-repair-scope-v1.md`
+* [Semi Auto Repair Scope v1](./semi-auto-repair-scope-v1.md)
 * `repair-executor-prompt-v1.md`
 * `repair-result-schema-v1.json`
 
@@ -317,13 +408,11 @@ Stage 2 can be considered successful when:
 
 ---
 
-## 8. Stage 3
-
-## Validation-driven repair loop layer
+## 9. Stage 3 · Validation-driven repair loop layer
 
 ### Goal
 
-Create a repeatable loop where repair is judged by before/after outcomes and can lead to:
+Create a repeatable loop where repair is judged by before and after outcomes and can lead to:
 
 * accept
 * revise
@@ -367,7 +456,7 @@ Stage 3 can be considered successful when:
 
 ---
 
-## 9. What is intentionally delayed
+## 10. What is intentionally delayed
 
 The following are intentionally **not** immediate goals.
 
@@ -386,7 +475,7 @@ This roadmap is designed for disciplined growth, not premature ambition.
 
 ---
 
-## 10. Family priority for future work
+## 11. Family priority for future work
 
 ### Priority 1
 
@@ -413,13 +502,13 @@ This priority ordering should remain stable unless strong evidence suggests othe
 
 ---
 
-## 11. Recommended immediate next files
+## 12. Recommended immediate next files
 
 The next practical files should be:
 
-1. `repair-planner-spec-v1.md`
-2. `repair-planner-prompt-v1.md`
-3. `repair-plan-schema-v1.json`
+1. [Repair Planner Spec v1](./repair-planner-spec-v1.md)
+2. [Repair Planner Prompt v1](./repair-planner-prompt-v1.md)
+3. [Repair Plan Schema v1](./repair-plan-schema-v1.json)
 
 These three files would move Auto Repair from:
 
@@ -433,7 +522,7 @@ That is the most valuable next step.
 
 ---
 
-## 12. Operational interpretation
+## 13. Operational interpretation
 
 The correct operational reading of Auto Repair today is:
 
@@ -444,7 +533,7 @@ That statement is accurate, useful, and safe.
 
 ---
 
-## 13. Recommended growth order
+## 14. Recommended growth order
 
 The healthiest order is:
 
@@ -454,7 +543,7 @@ Complete planner files
 
 ### Step 2
 
-Create a small repair action catalog for F1 / F4 / F7
+Create a small repair action catalog for F1, F4, and F7
 
 ### Step 3
 
@@ -472,6 +561,24 @@ This order preserves discipline.
 
 ---
 
-## 14. One-line roadmap summary
+## 15. Next steps ✨
+
+After this page, most readers continue with:
+
+1. [Open Repair Planner Spec v1](./repair-planner-spec-v1.md)
+2. [Open Repair Planner Prompt v1](./repair-planner-prompt-v1.md)
+3. [Open Repair Plan Schema v1](./repair-plan-schema-v1.json)
+4. [Back to Auto Repair Architecture v1](./auto-repair-architecture-v1.md)
+
+If you want the broader product surface:
+
+* [Back to Auto Repair v1 README](./README.md)
+* [Back to Fixes Hub](../README.md)
+* [Back to Atlas landing page](../../../wfgy-ai-problem-map-troubleshooting-atlas.md)
+* [Back to Atlas Hub](../../README.md)
+
+---
+
+## 16. One-line roadmap summary 🌍
 
 **Auto Repair Roadmap v1 defines the staged path from architecture and repair planning toward constrained execution, validation-driven iteration, and later deeper repair integration.**
