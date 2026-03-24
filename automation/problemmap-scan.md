@@ -1,6 +1,6 @@
 # WFGY ProblemMap Scan
 
-Generated at: 2026-03-23 06:12:32 UTC
+Generated at: 2026-03-24 06:03:23 UTC
 
 ## ProblemMap files
 
@@ -689,6 +689,24 @@ ProblemMap/GrandmaClinic/images/no14.png
 ProblemMap/GrandmaClinic/images/no15.png
 ProblemMap/GrandmaClinic/images/no16.png
 ProblemMap/Infra_Boot_Problems.md
+ProblemMap/Inverse_Atlas/README.md
+ProblemMap/Inverse_Atlas/docs/.gitkeep
+ProblemMap/Inverse_Atlas/docs/inverse_atlas_experiment_report.html
+ProblemMap/Inverse_Atlas/dual-layer-positioning.md
+ProblemMap/Inverse_Atlas/experiments/README.md
+ProblemMap/Inverse_Atlas/experiments/repro-60-seconds.md
+ProblemMap/Inverse_Atlas/figures/README.md
+ProblemMap/Inverse_Atlas/figures/fig1_default_vs_authorized_generation.png
+ProblemMap/Inverse_Atlas/figures/fig2_inverse_atlas_runtime_flow.png
+ProblemMap/Inverse_Atlas/figures/fig3_forward_inverse_dual_layer.png
+ProblemMap/Inverse_Atlas/figures/fig4_runtime_modes_failure_boundary.png
+ProblemMap/Inverse_Atlas/paper/README.md
+ProblemMap/Inverse_Atlas/paper/inverse-troubleshooting-atlas-pre-generative-governance-for-ai-legitimacy.pdf
+ProblemMap/Inverse_Atlas/quickstart.md
+ProblemMap/Inverse_Atlas/runtime-guide.md
+ProblemMap/Inverse_Atlas/runtime/README.md
+ProblemMap/Inverse_Atlas/status-and-boundaries.md
+ProblemMap/Inverse_Atlas/versions.md
 ProblemMap/LLM.md
 ProblemMap/LongContext_Problems.md
 ProblemMap/Multi-Agent_Problems.md
@@ -698,6 +716,8 @@ ProblemMap/README.md
 ProblemMap/Safety_Boundary_Problems.md
 ProblemMap/SemanticClinicIndex.md
 ProblemMap/Symbolic_Logic_Problems.md
+ProblemMap/Twin_Atlas/Bridge/README.md
+ProblemMap/Twin_Atlas/README.md
 ProblemMap/WFGY_RAG_16_Problem_Map_Global_Debug_Card.jpeg
 ProblemMap/agent-boundary-design.md
 ProblemMap/agent-consensus-protocols.md
@@ -783,4 +803,4 @@ ProblemMap/wfgy-metrics.md
 ProblemMap/wfgy-rag-16-problem-map-global-debug-card.md
 
 Total ProblemMap docs:
-777
+797
