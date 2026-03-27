@@ -90,7 +90,7 @@ Its current governance path is organized around seven gates:
 4. Neighboring Cut Review  
 5. Resolution Authorization  
 6. Repair Legality  
-7. Public Emission Control  
+7. Public Emission Control
 
 ### 🚦 The Four Output States
 
@@ -181,7 +181,7 @@ If the fastest path is what you need, start here.
 
 1. Start with [Inverse Atlas Advanced](./runtime/inverse-advanced.txt)  
 2. Run one case through the [Demo Harness](./runtime/inverse-demo.txt)  
-3. Compare baseline and governed output with the [Evaluator](./runtime/inverse-eval.txt)  
+3. Compare baseline and governed output with the [Evaluator](./runtime/inverse-eval.txt)
 
 This is the fastest way to experience the difference between default emission behavior and pre governed emission behavior.
 
