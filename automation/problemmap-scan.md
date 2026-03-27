@@ -1,6 +1,6 @@
 # WFGY ProblemMap Scan
 
-Generated at: 2026-03-26 06:14:00 UTC
+Generated at: 2026-03-27 06:14:36 UTC
 
 ## ProblemMap files
 
@@ -746,8 +746,26 @@ ProblemMap/Safety_Boundary_Problems.md
 ProblemMap/SemanticClinicIndex.md
 ProblemMap/Symbolic_Logic_Problems.md
 ProblemMap/Twin_Atlas/Bridge/README.md
+ProblemMap/Twin_Atlas/Bridge/bridge-implementation-notes.md
+ProblemMap/Twin_Atlas/Bridge/bridge-v1-eval-notes.md
+ProblemMap/Twin_Atlas/Bridge/bridge-v1-examples.md
 ProblemMap/Twin_Atlas/Bridge/twin-atlas-bridge-v1.md
+ProblemMap/Twin_Atlas/Bridge/twin-atlas-coupling-flow.md
 ProblemMap/Twin_Atlas/README.md
+ProblemMap/Twin_Atlas/demos/README.md
+ProblemMap/Twin_Atlas/demos/baseline-vs-twin-atlas-table.md
+ProblemMap/Twin_Atlas/demos/case-01-thin-evidence-f5-vs-f6.md
+ProblemMap/Twin_Atlas/demos/evaluator-notes.md
+ProblemMap/Twin_Atlas/faq.md
+ProblemMap/Twin_Atlas/figures/README.md
+ProblemMap/Twin_Atlas/implementation-plan.md
+ProblemMap/Twin_Atlas/release-notes.md
+ProblemMap/Twin_Atlas/roadmap.md
+ProblemMap/Twin_Atlas/runtime/README.md
+ProblemMap/Twin_Atlas/runtime/runtime-mode-notes.md
+ProblemMap/Twin_Atlas/runtime/twin-atlas-advanced.txt
+ProblemMap/Twin_Atlas/runtime/twin-atlas-basic.txt
+ProblemMap/Twin_Atlas/runtime/twin-atlas-strict.txt
 ProblemMap/WFGY_RAG_16_Problem_Map_Global_Debug_Card.jpeg
 ProblemMap/agent-boundary-design.md
 ProblemMap/agent-consensus-protocols.md
@@ -833,4 +851,4 @@ ProblemMap/wfgy-metrics.md
 ProblemMap/wfgy-rag-16-problem-map-global-debug-card.md
 
 Total ProblemMap docs:
-827
+845
