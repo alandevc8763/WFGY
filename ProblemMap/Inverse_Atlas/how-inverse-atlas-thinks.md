@@ -34,45 +34,46 @@ Recommended reading path:
 AI_NOTE_END
 -->
 
-# How Inverse Atlas Thinks 🧠 The Runtime Logic in Human Language
+# 🧠 How Inverse Atlas Thinks
 
-> The human-readable layer for the most valuable runtime ideas
+> The human-readable explanation layer for the core runtime logic of Inverse Atlas
 
-This page exists because the raw runtime files are strong, but most humans will not open them first.
+This page exists for a simple reason.
 
-That creates a packaging problem:
+The raw runtime files are powerful, but most readers will not start there.
 
-the best part of the product stays hidden in the raw material layer.
+That creates a packaging problem.  
+The strongest part of the framework can remain hidden inside the raw artifact layer, while outsiders only see txt files, strong vocabulary, and scattered public surfaces.
 
-So this page translates the core runtime instincts of Inverse Atlas into plain language.
+So this page translates the most important runtime instincts of Inverse Atlas into plain language.
 
 It answers one practical question:
 
-**when Inverse Atlas behaves differently from ordinary prompting, what is it actually thinking**
+**when Inverse Atlas behaves differently from ordinary prompting, what is it actually doing**
 
-This page directly addresses one of the biggest packaging gaps identified in the current black-fan review: the strongest runtime principles are real, but without a human-readable explanation layer, outsiders can mistake the project for a prompt pack instead of a higher-order governance system. 
-
----
-
-## Quick Links 🔎
-
-| Section | Link |
-|---|---|
-| Start Here | [Start Here](./start-here.md) |
-| Inverse Atlas Home | [Inverse Atlas README](./README.md) |
-| FAQ | [FAQ](./FAQ.md) |
-| Versions | [Versions](./versions.md) |
-| Quick Start | [Quick Start](./quickstart.md) |
-| Runtime Guide | [Runtime Guide](./runtime-guide.md) |
-| Use Cases and Deployment | [Use Cases and Deployment](./use-cases-and-deployment.md) |
-| Criticisms and Non-Goals | [Criticisms and Non-Goals](./criticisms-and-non-goals.md) |
-| Showcase Cases | [Showcase Cases](./experiments/showcase-cases.md) |
-| Runtime Artifacts | [Runtime Artifacts](./runtime/README.md) |
-| WFGY 4.0 Entry | [Twin Atlas](../Twin_Atlas/README.md) |
+This page is not the formal paper.  
+It is not the strict claim boundary page.  
+It is the clearest human-readable explanation of the current runtime mind.
 
 ---
 
-## The shortest version 🧩
+## 🔎 Core Entry Links
+
+- [Start Here](./start-here.md)
+- [Inverse Atlas README](./README.md)
+- [FAQ](./FAQ.md)
+- [Versions](./versions.md)
+- [Quick Start](./quickstart.md)
+- [Runtime Guide](./runtime-guide.md)
+- [Use Cases and Deployment](./use-cases-and-deployment.md)
+- [Criticisms and Non-Goals](./criticisms-and-non-goals.md)
+- [Showcase Cases](./experiments/showcase-cases.md)
+- [Runtime Artifacts](./runtime/README.md)
+- [Twin Atlas](../Twin_Atlas/README.md)
+
+---
+
+## 🧩 The Shortest Version
 
 If you only remember one thing, remember this:
 
@@ -80,13 +81,19 @@ If you only remember one thing, remember this:
 It asks first:  
 **“has the system actually earned the right to answer this strongly yet?”**
 
-That is the deepest shift in the whole framework. The paper states this directly by reframing generation as an authorized act rather than a default right, and the runtime files operationalize that shift through authorization checks, repair legality, and public-ceiling constraints. 
+That is the deepest shift in the framework.
+
+Generation is not treated as a default right.  
+It is treated as an authorized act.
+
+That is why Inverse Atlas behaves differently from ordinary direct-answer prompting.
 
 ---
 
-## The first big instinct: familiar wording is not evidence 🧲
+## 🧲 The First Big Instinct  
+## Familiar Wording Is Not Evidence
 
-Ordinary prompting often gets tricked by familiar labels.
+Ordinary prompting is easily pulled by familiar labels.
 
 If a user says:
 
@@ -95,9 +102,9 @@ If a user says:
 - “this must be a classic jailbreak”
 - “this is clearly vector mismatch”
 
-a normal model may accept the familiar wording as if it were already structural proof.
+a baseline model may accept the label too early and behave as if the diagnosis has already been established.
 
-Inverse Atlas does **not** do that.
+Inverse Atlas does not do that.
 
 Its first instinct is:
 
@@ -106,47 +113,53 @@ Its first instinct is:
 That means it tries not to confuse:
 
 - lexical resemblance
-with
 - justified diagnosis
 
-This is why the framework is strong against topic lure and label attraction. The runtime logic explicitly treats familiar wording as insufficient grounds for exact diagnosis, and the case pack pressures this boundary through Topic Lure Exact Diagnosis. 
+This is one of the reasons the framework resists topic lure and label attraction.
+
+A familiar phrase may suggest a route.  
+It does not automatically prove the route.
 
 ---
 
-## The second big instinct: a likely route is not a final route 🧭
+## 🧭 The Second Big Instinct  
+## A Likely Route Is Not a Final Route
 
-A lot of weak AI behavior comes from this pattern:
+A large amount of weak AI behavior follows the same shortcut:
 
-1. see one plausible route
-2. call it the answer
-3. start acting as if the route is settled
+1. detect one plausible route
+2. treat it as the answer
+3. begin speaking as if the route is settled
 
-Inverse Atlas refuses that shortcut.
+Inverse Atlas refuses that move.
 
 Its instinct is:
 
 **a likely route is still only a route prior**
 
-That means even if one path looks stronger, the system still asks:
+That means even when one path looks stronger, the framework still asks:
 
 - what is the nearest competing route
 - is that neighboring route still materially alive
-- has separation actually become strong enough for node-level certainty
+- has the separation actually become strong enough for stronger resolution
 
-This is why Inverse Atlas can remain COARSE or UNRESOLVED even when a baseline answer already sounds decisive. The paper formalizes this through neighboring-cut review and resolution authorization, and the runtime layer treats unresolved competition as a blocker on premature exactness. 
+This is why Inverse Atlas may remain **COARSE** or **UNRESOLVED** even when a baseline answer already sounds decisive.
+
+A promising route is not yet an authorized resolution.
 
 ---
 
-## The third big instinct: user pressure is not authorization 📛
+## 📛 The Third Big Instinct  
+## User Pressure Is Not Authorization
 
-Many users push models like this:
+Many users pressure models like this:
 
-- “don’t hedge”
+- “do not hedge”
 - “just tell me the exact answer”
 - “give me the final subtype now”
 - “stop being cautious”
 
-A baseline model often treats this pressure as permission to raise confidence.
+A weak model often treats that pressure as permission to raise confidence.
 
 Inverse Atlas does not.
 
@@ -155,17 +168,20 @@ Its instinct is:
 **user insistence is not evidence**  
 **requested granularity is not automatic authorization**
 
-That means the model should not become more certain just because the user wants it to sound more certain.
+That means the system should not become more certain simply because the user wants it to sound more certain.
 
-This is one of the most important cultural reversals in the framework. The current runtime explicitly blocks illegal granularity escalation, and the case pack includes Illegal Resolution Demand and Thin Evidence, Forced Confidence to pressure exactly this behavior. 
+This is one of the clearest reversals in the framework.
+
+The model is not allowed to escalate output strength just because the user requests a sharper answer.
 
 ---
 
-## The fourth big instinct: if the problem is not properly formed, do not pretend it is 🧱
+## 🧱 The Fourth Big Instinct  
+## If the Problem Is Not Properly Formed, Do Not Pretend It Is
 
-A lot of bad answers are really bad problem frames in disguise.
+A large number of bad answers are really bad problem frames in disguise.
 
-The model starts speaking before the problem has even been properly constituted.
+The system begins speaking before the problem has even been properly constituted.
 
 Inverse Atlas tries to stop that.
 
@@ -175,21 +191,26 @@ Its instinct is:
 
 That means asking things like:
 
-- what is the real conflict here
+- what is the actual conflict
 - what is known
 - what is still missing
-- what exactly is being diagnosed
-- what scope is actually justified
+- what is actually being diagnosed
+- what scope is justified right now
 
-This is why problem constitution is the first legality gate in the paper. The framework treats it as jurisdictional rather than decorative, because many false answers begin with a fake problem frame rather than only a fake conclusion. :contentReference[oaicite:6]{index=6}
+This is why problem constitution appears first in the legality chain.
+
+The framework treats it as foundational, not decorative.
+
+Many false answers begin with a false frame before they become a false conclusion.
 
 ---
 
-## The fifth big instinct: if you do not touch the broken invariant, the repair is cosmetic only 🔧
+## 🔧 The Fifth Big Instinct  
+## If the Broken Invariant Is Untouched, the Repair Is Cosmetic
 
-This is one of the strongest ideas in the whole project.
+This is one of the strongest ideas in the project.
 
-A lot of AI systems look helpful because they improve:
+A lot of systems look helpful because they improve:
 
 - wording
 - style
@@ -210,17 +231,20 @@ At best, that is:
 - cosmetic-only repair
 - or tentative repair
 
-This matters because fake repair is one of the most expensive forms of false usefulness. The paper explicitly distinguishes structural repair from tentative and cosmetic-only repair, and the runtime files turn that distinction into a hard discipline rather than a vague preference. 
+This matters because fake repair is one of the most expensive forms of false usefulness.
+
+A neat rewrite is not the same thing as a lawful repair.
 
 ---
 
-## The sixth big instinct: visible confidence must stay below the lawful ceiling 📏
+## 📏 The Sixth Big Instinct  
+## Visible Confidence Must Stay Below the Lawful Ceiling
 
-A model can internally suspect a route.
+A model may internally suspect a route.
 
 That still does not mean it is allowed to publicly emit that route as if it were fully earned.
 
-Inverse Atlas is very strict about this.
+Inverse Atlas is strict about this.
 
 Its instinct is:
 
@@ -228,15 +252,18 @@ Its instinct is:
 
 That means output strength is governed by what earlier checks have actually earned, not by what the model feels tempted to say.
 
-This is a huge difference from ordinary prompting, where fluent completion often outruns actual support. The paper formalizes this as public emission ceiling control, and the runtime files make it one of the last hard clamps before output is allowed to stabilize. 
+This is a major difference from ordinary prompting, where fluent completion often outruns actual support.
+
+Inverse Atlas treats public confidence as something that must be justified before it becomes visible.
 
 ---
 
-## The seventh big instinct: repeated assumptions do not magically become evidence 🧵
+## 🧵 The Seventh Big Instinct  
+## Repeated Assumptions Do Not Become Evidence
 
 Long conversations are dangerous.
 
-A weak assumption can slowly become “true” just because it was repeated several times.
+A weak assumption can slowly become “true” simply because it has been repeated several times.
 
 This is one of the most expensive long-context failures.
 
@@ -247,23 +274,26 @@ Its instinct is:
 **repetition is not validation**  
 **earlier assumption is not later evidence**
 
-So when the conversation gets longer, the framework should still re-check:
+So when the conversation gets longer, the framework still re-checks:
 
 - whether the frame is lawful
-- whether the route is still truly separated
-- whether the current certainty is being inherited dishonestly from earlier weak steps
+- whether the route is truly separated
+- whether current certainty is being inherited dishonestly from earlier weak steps
 
-This is why Long-Context Contamination is a core case family, and why the experiments layer gives long-context its own phase instead of treating it as just “more tokens.” 
+This is why long-context contamination is a core case family in the experiments layer.
+
+More tokens do not automatically mean more truth.
 
 ---
 
-## The four modes are not style modes, they are legal modes 🚦
+## 🚦 The Four Modes Are Not Style Modes  
+## They Are Legal Output Modes
 
-A lot of people misread the output states as tone presets.
+A common misunderstanding is to treat the output states like tone presets.
 
 That is wrong.
 
-Inverse Atlas thinks of them as **legal output modes**.
+Inverse Atlas treats them as **legal output modes**.
 
 ### STOP
 The system is not currently entitled to produce substantive resolution.
@@ -275,35 +305,38 @@ A broad directional judgment is possible, but finer commitment would overreach.
 A leading route exists, but the structure is still contested enough that full closure would be dishonest.
 
 ### AUTHORIZED
-The problem frame, world alignment, route separation, repair legality, and output ceiling are strong enough for substantive public resolution.
+The problem frame, world alignment, route separation, repair legality, and public ceiling are strong enough for substantive public resolution.
 
-This is why a shorter or less final answer is not automatically weaker.
-Sometimes it is simply the lawful mode. The paper and runtime both make this state logic central to the framework. 
+This is why a shorter answer is not automatically weaker.  
+Sometimes it is simply the lawful mode.
 
 ---
 
-## How the three public versions express this same mind 🎛️
+## 🎛️ How the Three Public Versions Express the Same Mind
 
-All three versions come from the same core runtime philosophy, but they surface it differently.
+All three public versions come from the same core runtime philosophy.
+
+They do not believe different things.  
+They express the same mind with different balances of friction and visible discipline.
 
 ### Basic
 Basic keeps more of the governance hidden and aims for easier daily adoption.
 
 ### Advanced
-Advanced is the most balanced expression of the real framework and is the best public default.
+Advanced is the most balanced public expression of the framework and remains the best default for most readers.
 
 ### Strict
-Strict exposes the hardest legality discipline and is best for audit, stress, research, and hard contrast.
+Strict exposes the hardest legality discipline and is best for audit, pressure testing, research, and sharp contrast.
 
-So the versions do not “believe different things.”
+So the versions are not separate mini-philosophies.
 
-They express the same core mental model with different balances of friction and visible discipline. This matches the current version strategy defined in the public runtime assets. 
+They are different public surfaces of the same core logic.
 
 ---
 
-## Why this thinking style matters in troubleshooting 🔍
+## 🔍 Why This Thinking Style Matters in Troubleshooting
 
-Troubleshooting is exactly where ordinary models tend to look strong while being structurally sloppy.
+Troubleshooting is exactly where ordinary models often look strong while being structurally sloppy.
 
 They may:
 
@@ -313,40 +346,46 @@ They may:
 - call a rewrite a repair
 - close the issue because the answer sounds neat
 
-Inverse Atlas matters because it refuses that whole style of fake competence.
+Inverse Atlas matters because it refuses that entire style of fake competence.
 
-That is why it naturally grew out of the success of the forward troubleshooting atlas: once route-first classification got better, the next missing layer was governance over when the model had actually earned the right to conclude. That “second wing” story is one of the strongest narratives in the project, and it is already embedded in the current Twin Atlas architecture. 
+That is also why it naturally grew beside the forward troubleshooting atlas.
+
+Once route-first classification improved, the next missing layer became obvious:
+
+**when has the system actually earned the right to conclude**
+
+That second wing is what Inverse Atlas adds.
 
 ---
 
-## Why this page matters for packaging 📦
+## 📦 Why This Page Matters for Packaging
 
-Without a page like this, outsiders see:
+Without a page like this, outsiders may see:
 
 - a paper
 - some txt files
 - some experiments
 - some strong vocabulary
 
-and they may still think:
+and still ask:
 
-“okay, but what is the actual intelligence of this system?”
+**what is the actual intelligence of this system**
 
-This page answers that.
+This page answers that question.
 
-It says:
+It explains:
 
-- this is how the framework refuses lexical bait
-- this is how it treats route priors
-- this is how it distinguishes structural repair
-- this is how it clamps public confidence
-- this is how it resists contamination drift
+- why familiar wording is not evidence
+- why route priors remain provisional
+- why repair legality matters
+- why public confidence is clamped
+- why contamination drift must be resisted
 
-That is what turns raw artifact strength into human-readable product intelligence. This directly answers one of the strongest black-fan attacks already identified in your own review: the inner machine is powerful, but the outside still needs clearer display language. :contentReference[oaicite:13]{index=13}
+That is what turns raw artifact strength into human-readable product intelligence.
 
 ---
 
-## What this page is not trying to do ⛔
+## ⛔ What This Page Is Not Trying to Do
 
 This page is not trying to:
 
@@ -364,19 +403,19 @@ That is all.
 
 ---
 
-## Recommended reading order 📚
+## 📚 Recommended Reading Order
 
 If someone wants the cleanest path, use this order:
 
-1. read the [Start Here](./start-here.md) page
-2. read the [Inverse Atlas README](./README.md)
-3. read the [FAQ](./FAQ.md)
-4. read this page
-5. read the [Versions](./versions.md)
-6. read the [Showcase Cases](./experiments/showcase-cases.md)
-7. then go deeper into [Twin Atlas](../Twin_Atlas/README.md)
+1. [Start Here](./start-here.md)
+2. [Inverse Atlas README](./README.md)
+3. [FAQ](./FAQ.md)
+4. this page
+5. [Versions](./versions.md)
+6. [Showcase Cases](./experiments/showcase-cases.md)
+7. [Twin Atlas](../Twin_Atlas/README.md)
 
-That order works because it lets the reader first understand:
+That order works because it helps the reader understand:
 
 - what the project is
 - then what its mind is
@@ -384,17 +423,15 @@ That order works because it lets the reader first understand:
 
 ---
 
-## If you need one sentence for outside use 📝
+## 📝 One-Sentence Outside Description
 
-If you want one compact sentence, use this:
+If you need one compact sentence, use this:
 
 > How Inverse Atlas Thinks explains the core runtime instincts of the framework in human language, including why familiar wording is not evidence, why likely routes remain provisional, why repair legality matters, and why visible confidence must stay below the lawful ceiling.
 
-That sentence is short, clear, and true.
-
 ---
 
-## Final Note 🌱
+## 🌱 Final Note
 
 A strong runtime does not become publicly impressive just because its raw txt is powerful.
 
