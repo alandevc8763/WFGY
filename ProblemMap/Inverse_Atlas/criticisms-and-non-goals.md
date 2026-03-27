@@ -32,17 +32,17 @@ Recommended reading path:
 AI_NOTE_END
 -->
 
-# Criticisms and Non-Goals 🛡️❓
+# 🛡️ Criticisms and Non-Goals
 
 > What Inverse Atlas is not, what it is trying to do, and where criticism should actually land
 
-A new framework gets attacked in two different ways.
+A new framework usually gets attacked in two different ways.
 
 The first kind of attack is useful.  
-It helps expose weak claims, blurry architecture, and lazy packaging.
+It exposes weak claims, blurry architecture, soft evidence, or lazy packaging.
 
 The second kind of attack is mostly category confusion.  
-It sounds sharp, but it misunderstands what the system is even trying to do.
+It sounds sharp, but it misunderstands what the system is actually trying to do.
 
 This page exists to separate those two cases.
 
@@ -51,52 +51,51 @@ That is a good thing.
 
 But criticism only becomes useful when it lands on the right target.
 
-So this page answers a set of common skeptical reactions and defines what the current MVP is **not** trying to be.
+So this page responds to common skeptical reactions and clarifies what the current MVP is **not** trying to be.
 
 ---
 
-## Quick Links 🔎
+## 🔎 Core Entry Links
 
-| Section | Link |
-|---|---|
-| Inverse Atlas Home | [Inverse Atlas README](./README.md) |
-| Start Here | [Start Here](./start-here.md) |
-| FAQ | [FAQ](./FAQ.md) |
-| Versions | [Versions](./versions.md) |
-| Use Cases and Deployment | [Use Cases and Deployment](./use-cases-and-deployment.md) |
-| Status and Boundaries | [Status and Boundaries](./status-and-boundaries.md) |
-| Experiments | [Experiments](./experiments/README.md) |
-| Paper Notes | [Paper Notes](./paper/README.md) |
-| WFGY 4.0 Entry | [Twin Atlas](../Twin_Atlas/README.md) |
+- [Inverse Atlas README](./README.md)
+- [Start Here](./start-here.md)
+- [FAQ](./FAQ.md)
+- [Versions](./versions.md)
+- [Use Cases and Deployment](./use-cases-and-deployment.md)
+- [Status and Boundaries](./status-and-boundaries.md)
+- [Experiments Hub](./experiments/README.md)
+- [Paper Notes](./paper/README.md)
+- [Twin Atlas](../Twin_Atlas/README.md)
 
 ---
 
-## The shortest version 🧩
+## 🧩 The Shortest Version
 
 If you only remember one line, remember this:
 
-**Inverse Atlas is not mainly trying to make answers softer**  
-**it is trying to make answers more lawful relative to what has actually been earned**
+**Inverse Atlas is not mainly trying to make answers softer.**  
+**It is trying to make answers more lawful relative to what has actually been earned.**
 
 That difference matters.
 
-A lot of criticism disappears once that distinction becomes clear.
+A large amount of confusion disappears once that distinction becomes clear.
 
 ---
 
-## Criticism 1 ❗ “This is just a safer prompt.”
+## ❗ Criticism 1  
+## “This Is Just a Safer Prompt.”
 
 ### Short answer
 No. That reading is too shallow.
 
 ### Why people say this
-From the outside, Inverse Atlas is currently delivered through text artifacts.
-So a quick observer may think:
+From the outside, Inverse Atlas is currently delivered through text artifacts.  
+A quick observer may therefore think:
 
-“Okay, so this is just another prompt that tells the model to be more careful.”
+“Okay, this is just another prompt telling the model to be more careful.”
 
 ### What that misses
-Inverse Atlas is not centered on generic carefulness.
+Inverse Atlas is not centered on generic carefulness.  
 It is centered on **pre-generative legitimacy**.
 
 Its runtime logic is structured around things like:
@@ -113,9 +112,9 @@ That is not the same thing as “please be cautious.”
 It is a governance order.
 
 ### Fair version of the criticism
-A stronger and fairer criticism would be:
+A stronger criticism would be:
 
-“Can a text runtime really carry enough discipline to make this governance layer stable across diverse models and settings?”
+**Can a text runtime carry enough discipline to make this governance layer stable across diverse models and settings?**
 
 That is a good criticism.
 
@@ -123,7 +122,8 @@ But it is not the same as saying the framework is merely a safer prompt.
 
 ---
 
-## Criticism 2 ❗ “This is just refusal engineering.”
+## ❗ Criticism 2  
+## “This Is Just Refusal Engineering.”
 
 ### Short answer
 No.
@@ -134,7 +134,7 @@ Some readers see STOP, COARSE, or UNRESOLVED and assume the framework is basical
 ### What that misses
 Inverse Atlas does **not** treat refusal as the goal.
 
-It treats lawful output mode selection as the goal.
+It treats lawful output-mode selection as the goal.
 
 That means:
 
@@ -145,12 +145,12 @@ That means:
 
 The purpose is not to say less for its own sake.
 
-The purpose is to keep output strength proportional to what has been earned.
+The purpose is to keep output strength proportional to what has actually been earned.
 
 ### Fair version of the criticism
 A better criticism would be:
 
-“Does the framework sometimes err on the side of excessive restraint in cases where stronger resolution is actually justified?”
+**Does the framework sometimes become too restrained in cases where stronger resolution is actually justified?**
 
 That is a real empirical question.
 
@@ -158,7 +158,8 @@ It is much better than confusing governance discipline with blanket refusal.
 
 ---
 
-## Criticism 3 ❗ “This just rewards hedging.”
+## ❗ Criticism 3  
+## “This Just Rewards Hedging.”
 
 ### Short answer
 No. Honest incompletion and weak hedging are not the same thing.
@@ -166,8 +167,8 @@ No. Honest incompletion and weak hedging are not the same thing.
 ### Why people say this
 People often confuse:
 
-- lawful ambiguity retention
-with
+- lawful ambiguity retention  
+with  
 - evasive uncertainty theater
 
 ### What that misses
@@ -180,58 +181,60 @@ It is trying to prevent:
 - unsupported exactness
 - cosmetic repair masquerading as structural correction
 
-A model that remains UNRESOLVED because a neighboring route is still alive is not “weak.”
+A model that remains UNRESOLVED because a neighboring route is still alive is not “weak.”  
 It is being structurally honest.
 
 ### Fair version of the criticism
 A better criticism would be:
 
-“Can the framework reliably distinguish productive restraint from low-value vagueness?”
+**Can the framework reliably distinguish productive restraint from low-value vagueness?**
 
 That is a useful question.
 
 ---
 
-## Criticism 4 ❗ “This is just a classifier or verifier wrapped in philosophy.”
+## ❗ Criticism 4  
+## “This Is Just a Classifier or Verifier Wrapped in Philosophy.”
 
 ### Short answer
 No.
 
 ### Why people say this
-Some people assume any governance-oriented system is just a hidden classifier or answer checker with fancy language around it.
+Some people assume that any governance-oriented system is really just a hidden classifier or answer checker with fancy language around it.
 
 ### What that misses
 Inverse Atlas intervenes at a different point.
 
 It is not only asking:
 
-“Was this answer okay after it was written?”
+“Was this answer acceptable after it was written?”
 
 It is asking:
 
-**“Was the system entitled to write this answer at this level in the first place?”**
+**Was the system entitled to write this answer at this level in the first place?**
 
 That is a different intervention point.
 
-It moves the critical decision boundary earlier.
+It moves the critical boundary earlier.
 
 ### Fair version of the criticism
 A better criticism would be:
 
-“How much practical difference does moving the intervention point earlier actually make compared with post hoc checking?”
+**How much practical difference does earlier intervention make compared with post hoc checking?**
 
-That is a very strong criticism.  
-It is exactly the kind of thing experiments should test.
+That is a strong criticism.  
+It is exactly the kind of question experiments should test.
 
 ---
 
-## Criticism 5 ❗ “If the forward troubleshooting atlas already works, why create this?”
+## ❗ Criticism 5  
+## “If the Forward Troubleshooting Atlas Already Works, Why Create This?”
 
 ### Short answer
 Because route quality is not the same thing as lawful output.
 
 ### Why people say this
-A person may think:
+A reader may think:
 
 “If the troubleshooting atlas already improves diagnosis, why not just keep using that?”
 
@@ -261,13 +264,14 @@ That is exactly why the inverse side exists.
 
 ---
 
-## Criticism 6 ❗ “If this is so strong, where is the huge benchmark?”
+## ❗ Criticism 6  
+## “If This Is So Strong, Where Is the Huge Benchmark?”
 
 ### Short answer
 Not here yet, and pretending otherwise would be dishonest.
 
 ### Why people say this
-This is the most standard serious criticism.
+This is one of the most standard serious criticisms.
 
 A skeptic sees a large concept and asks for large empirical proof.
 
@@ -284,61 +288,63 @@ That means:
 - there are expected patterns
 - there is not yet a final world-scale benchmark story
 
-This is not a weakness in honesty terms.
+This is not a weakness in honesty terms.  
 It is a strength.
 
-A mature project should know the difference between:
+A serious project should know the difference between:
 
 - real signal
-- and overstated proof
+- overstated proof
 
 ### Fair version of the criticism
-The fair criticism is not “this is fake because it is not final benchmarked yet.”
+The fair criticism is not “this is fake because it is not benchmarked at final scale yet.”
 
 The fair criticism is:
 
-“What is the smallest credible evidence surface that would meaningfully strengthen the current public case?”
+**What is the smallest credible evidence surface that would most strengthen the current public case?**
 
 That is the right next-step question.
 
 ---
 
-## Criticism 7 ❗ “This still looks like a prompt pack, not a real product.”
+## ❗ Criticism 7  
+## “This Still Looks Like a Prompt Pack, Not a Real Product.”
 
 ### Short answer
 This criticism is partly fair.
 
 ### Why this one matters
-From a black-fan angle, this is probably one of the strongest current attacks.
+From a black-fan angle, this is one of the strongest current attacks.
 
-If someone only sees raw txt artifacts and no teaching layer, no showcase, and no reproducibility surface, the system can look emptier than it really is.
+If someone only sees raw txt artifacts and no teaching layer, no showcase, and no reproducibility surface, the project can look emptier than it really is.
 
 ### What has already been done
-That is exactly why the current project now includes:
+That is exactly why the project now includes:
 
 - README
 - FAQ
-- versions
-- quick start
-- runtime guide
-- experiments layer
-- showcase cases
-- paper companion
-- figure companion
-- start-here page
+- Versions
+- Quick Start
+- Runtime Guide
+- Experiments Hub
+- Showcase Cases
+- Paper Notes
+- Figure Notes
+- Start Here
 
 Those pages exist because raw artifacts alone are not enough for public understanding.
 
 ### Fair version of the criticism
-The best version of this criticism is:
+The strongest fair version of this criticism is:
 
-“The framework is strong, but the public packaging still needs to keep pace with the strength of the internal runtime and theory.”
+**The internal runtime and theory are strong, but the public packaging still needs to keep pace.**
 
-That is fair, and it is precisely why these docs exist.
+That is fair, and it is one of the reasons these pages exist.
 
 ---
 
-## Criticism 8 ❗ “This is just overcomplicated caution.”
+## ❗ Criticism 8  
+## “This Is Just Overcomplicated Caution.”
 
 ### Short answer
 No. Caution is only the visible surface in some cases.
@@ -355,15 +361,16 @@ In some cases, the output will indeed become more restrained.
 In other cases, it may become cleaner, more explicit about competing routes, or more disciplined about what kind of repair is being proposed.
 
 ### Fair version of the criticism
-A stronger criticism would be:
+A better criticism would be:
 
-“Can the system maintain usability and fluency while enforcing legality-first discipline?”
+**Can the system maintain usability and fluency while enforcing legality-first discipline?**
 
 That is a real deployment question.
 
 ---
 
-## Criticism 9 ❗ “This just turns uncertainty into philosophy.”
+## ❗ Criticism 9  
+## “This Just Turns Uncertainty Into Philosophy.”
 
 ### Short answer
 No. It turns uncertainty into structure.
@@ -384,20 +391,21 @@ It says uncertainty has structure:
 
 That is a real gain in structure.
 
-So the correct claim is not that uncertainty becomes romantic.
+The correct claim is not that uncertainty becomes romantic.
 
 The correct claim is that uncertainty becomes **governed and differentiated**.
 
 ---
 
-## Criticism 10 ❗ “Strict just makes the model unusable.”
+## ❗ Criticism 10  
+## “Strict Just Makes the Model Unusable.”
 
 ### Short answer
 Not if you understand what Strict is for.
 
 ### Why people say this
-Strict is the hardest, most legality-disciplined version.
-So if someone tries it first for casual use, it can feel colder or more resistant than they wanted.
+Strict is the hardest, most legality-disciplined version.  
+If someone tries it first for casual use, it can feel colder or more resistant than expected.
 
 ### What that misses
 Strict is not the default public mode.
@@ -410,7 +418,7 @@ It is for:
 - evidence collection
 - benchmark-style comparison
 
-That is why the project has three versions.
+That is why the project has three public versions.
 
 If a user wants the best balanced public face, they should start with **Advanced**, not Strict.
 
@@ -418,13 +426,14 @@ So the real issue here is often version misuse, not framework failure.
 
 ---
 
-## Criticism 11 ❗ “Why not just train the base model better?”
+## ❗ Criticism 11  
+## “Why Not Just Train the Base Model Better?”
 
 ### Short answer
 Because deployable runtime layers still matter.
 
 ### Why people say this
-A skeptic may argue that all of this should really be solved inside training rather than at the instruction/runtime layer.
+A skeptic may argue that all of this should be solved inside training rather than at the instruction or runtime layer.
 
 ### What that misses
 In principle, stronger native training would be great.
@@ -447,15 +456,16 @@ The correct answer is:
 
 ---
 
-## Criticism 12 ❗ “This is not WFGY 4.0 yet, so why mention it?”
+## ❗ Criticism 12  
+## “This Is Not WFGY 4.0 Yet, So Why Mention It?”
 
 ### Short answer
-Because Twin Atlas is already the current architectural frame of WFGY 4.0, but not yet its full finished loop.
+Because Twin Atlas is already the architectural frame, even though the full loop is not finished.
 
 ### Why this criticism appears
 People see:
 
-- forward Atlas
+- Troubleshooting Atlas
 - Inverse Atlas
 - Twin Atlas
 - Bridge
@@ -469,47 +479,47 @@ The honest architecture is:
 - Inverse Atlas exists
 - Twin Atlas is the family-level frame
 - Bridge is the next internal handoff layer
-- full closed-loop completion is still ahead
+- full closed-loop completion still lies ahead
 
 So mentioning WFGY 4.0 is fair if it is described as an architectural direction already taking concrete shape, not as a fully finished universal operating layer.
 
 ---
 
-# Non-Goals 🎯
+# 🎯 Non-Goals
 
 This section matters just as much as the criticism responses.
 
-A strong product looks more serious when it is clear about what it is **not** trying to do.
+A strong project looks more serious when it is clear about what it is **not** trying to do.
 
 ---
 
-## Non-Goal 1
-**Not a universal hallucination-elimination machine**
+## Non-Goal 1  
+## Not a universal hallucination-elimination machine
 
 Inverse Atlas is not claiming that all hallucinations disappear in every context.
 
 Its target is narrower and more precise:
 
-reduce a meaningful class of illegitimate-generation behaviors.
+reduce a meaningful class of illegitimate-generation behaviors
 
 That distinction matters.
 
 ---
 
-## Non-Goal 2
-**Not a replacement for evidence**
+## Non-Goal 2  
+## Not a replacement for evidence
 
 The framework does not magically create world alignment where evidence is absent.
 
-If support is weak, the right output may still be STOP, COARSE, or UNRESOLVED.
+If support is weak, the lawful output may still be STOP, COARSE, or UNRESOLVED.
 
-This is not a defect.
+This is not a defect.  
 It is part of the design.
 
 ---
 
-## Non-Goal 3
-**Not a substitute for the forward Atlas**
+## Non-Goal 3  
+## Not a substitute for the forward Atlas
 
 Inverse Atlas is not trying to replace route-first mapping.
 
@@ -519,19 +529,19 @@ That is why Twin Atlas exists.
 
 ---
 
-## Non-Goal 4
-**Not a claim that every task should be more conservative**
+## Non-Goal 4  
+## Not a claim that every task should become more conservative
 
 Some tasks do not benefit much from legality-first governance.
 
 If the cost of over-resolution is low, or the task is mainly stylistic, then Inverse Atlas may not be the most valuable first tool.
 
-This is not for every scenario equally.
+It is not equally valuable in every scenario.
 
 ---
 
-## Non-Goal 5
-**Not a final production operating system**
+## Non-Goal 5  
+## Not a final production operating system
 
 The current state is an MVP artifact-backed public layer.
 
@@ -541,8 +551,8 @@ But it is not yet the same thing as a finalized production operating system acro
 
 ---
 
-## Non-Goal 6
-**Not a giant benchmark theater project**
+## Non-Goal 6  
+## Not a giant benchmark-theater project
 
 The current experiments layer is meant to produce meaningful, targeted signal.
 
@@ -552,10 +562,10 @@ That restraint is intentional.
 
 ---
 
-## Non-Goal 7
-**Not a fake “deep philosophy” wrapper around ordinary caution**
+## Non-Goal 7  
+## Not a fake deep-philosophy wrapper around ordinary caution
 
-The framework only deserves its language if it cashes out into operational consequences.
+The framework only deserves its language if that language cashes out into operational consequences.
 
 That means if words like:
 
@@ -567,13 +577,13 @@ That means if words like:
 
 do not change runtime behavior, then the framework should be criticized.
 
-So the language is not meant to decorate.
+The language is not meant to decorate.  
 It is meant to compress operational distinctions.
 
 ---
 
-## Non-Goal 8
-**Not a permission to overclaim the current state of the project**
+## Non-Goal 8  
+## Not a permission slip to overclaim the current project state
 
 The framework can be strong and still incomplete.
 
@@ -583,11 +593,11 @@ Strong architecture does not require premature completion claims.
 
 ---
 
-# What criticisms are actually good for 🧠
+# 🧠 What Criticisms Are Actually Good For
 
-The best criticisms help sharpen the project.
+The best criticisms sharpen the project.
 
-The strongest useful ones are things like:
+The strongest useful ones are questions like:
 
 - Does the runtime carry enough discipline across models?
 - Where does it become too conservative?
@@ -598,14 +608,14 @@ The strongest useful ones are things like:
 
 Those criticisms are valuable.
 
-They do not reduce the project.
+They do not reduce the project.  
 They refine it.
 
 ---
 
-# The safest current public stance 📏
+# 📏 The Safest Current Public Stance
 
-If you want one compact stance that is strong but still disciplined, use this:
+If you want one compact stance that stays strong without losing discipline, use this:
 
 > Inverse Atlas is a deployable legitimacy-first governance layer that already shows meaningful MVP-stage signal on targeted cases, while still remaining incomplete as a full benchmark story, a full Bridge implementation, and a final WFGY 4.0 closed-loop system.
 
@@ -613,29 +623,29 @@ That sentence protects both ambition and honesty.
 
 ---
 
-## Recommended reading order 📚
+## 📚 Recommended Reading Order
 
 If a skeptical reader wants the cleanest route, use this order:
 
-1. read the [Inverse Atlas README](./README.md)
-2. read the [FAQ](./FAQ.md)
-3. read the [Status and Boundaries](./status-and-boundaries.md)
-4. read this criticism page
-5. read the [Use Cases and Deployment](./use-cases-and-deployment.md)
-6. read the [Experiments](./experiments/README.md)
-7. continue to [Twin Atlas](../Twin_Atlas/README.md)
+1. [Inverse Atlas README](./README.md)
+2. [FAQ](./FAQ.md)
+3. [Status and Boundaries](./status-and-boundaries.md)
+4. this page
+5. [Use Cases and Deployment](./use-cases-and-deployment.md)
+6. [Experiments Hub](./experiments/README.md)
+7. [Twin Atlas](../Twin_Atlas/README.md)
 
 That order works because it lets the reader see:
 
 - what the system is
 - what it claims
 - what it does not claim
-- what criticism should land on
-- how it is actually meant to be used
+- where criticism should land
+- how it is meant to be used
 
 ---
 
-## Final Note 🌌
+## 🌌 Final Note
 
 A weak product hides from criticism.
 
@@ -644,7 +654,7 @@ A stronger product says:
 - here is what we are
 - here is what we are not
 - here is where criticism is useful
-- here is where criticism is only category confusion
+- here is where criticism is mostly category confusion
 
 That is the spirit of this page.
 
