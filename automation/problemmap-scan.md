@@ -1,6 +1,6 @@
 # WFGY ProblemMap Scan
 
-Generated at: 2026-03-27 06:14:36 UTC
+Generated at: 2026-03-28 06:00:41 UTC
 
 ## ProblemMap files
 
@@ -719,6 +719,11 @@ ProblemMap/Inverse_Atlas/figures/fig1_default_vs_authorized_generation.png
 ProblemMap/Inverse_Atlas/figures/fig2_inverse_atlas_runtime_flow.png
 ProblemMap/Inverse_Atlas/figures/fig3_forward_inverse_dual_layer.png
 ProblemMap/Inverse_Atlas/figures/fig4_runtime_modes_failure_boundary.png
+ProblemMap/Inverse_Atlas/figures/inverse_atlas_design_contrast.png
+ProblemMap/Inverse_Atlas/figures/inverse_atlas_family_positioning.png
+ProblemMap/Inverse_Atlas/figures/inverse_atlas_governance_map.png
+ProblemMap/Inverse_Atlas/figures/inverse_atlas_hero_order_shift.png
+ProblemMap/Inverse_Atlas/figures/inverse_atlas_main_hero.png
 ProblemMap/Inverse_Atlas/how-inverse-atlas-thinks.md
 ProblemMap/Inverse_Atlas/paper/README.md
 ProblemMap/Inverse_Atlas/paper/inverse-troubleshooting-atlas-pre-generative-governance-for-ai-legitimacy.pdf
@@ -851,4 +856,4 @@ ProblemMap/wfgy-metrics.md
 ProblemMap/wfgy-rag-16-problem-map-global-debug-card.md
 
 Total ProblemMap docs:
-845
+850
