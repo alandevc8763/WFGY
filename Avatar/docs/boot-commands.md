@@ -2,347 +2,280 @@
 AI_NOTE_START
 
 Document role:
-This page explains the boot command layer of WFGY 5.0 Avatar.
+This page explains the first-contact discipline of WFGY 5.0 Avatar.
 
 What this page is for:
-1. Explain what boot commands are.
-2. Show the currently supported boot commands.
-3. Clarify how boot commands relate to avatar activation.
-4. Help readers understand the difference between the shared runtime and the selected persona route.
-5. Keep the current public explanation simple, practical, and honest.
-
-What this page is not:
-1. Not the full runtime architecture page.
-2. Not the full WFGY_BRAIN theory page.
-3. Not the full avatar creation guide.
-4. Not the full community submission guide.
-5. Not a claim that every possible boot route is already publicly finalized.
-
-How to use this page:
-1. Understand that Avatar uses one shared runtime file.
-2. Learn the currently supported boot commands.
-3. Use one boot command first.
-4. Run one real task after boot.
-5. Tune behavior later through WFGY_BRAIN if needed.
+1. Show the cleanest first-contact path into Avatar.
+2. Help new users avoid noisy or misleading first tests.
+3. Turn "60 seconds" into a real product advantage, not just a slogan.
+4. Keep the page practical, fast, and product-facing.
 
 Important boundary:
-Boot commands activate a persona route inside the shared Avatar runtime.
-They do not replace the runtime, do not replace governance, and do not replace later tuning.
+This page is about first contact.
+It is not the full boot-command page, not the full workflow page, and not the full theory layer.
 
 AI_NOTE_END
 -->
 
-# 🧷 Boot Commands
+# ⚡ Start in 60 Seconds
 
-WFGY 5.0 Avatar now starts from **one shared runtime file**:
+This page is about one thing only:
 
-`avatar.txt`
+**how to get a clean first contact with Avatar**
 
-You do not begin by choosing between multiple separate starter files.
+Not a noisy contact.  
+Not a confused contact.  
+Not a fake test that teaches you nothing.
 
-You begin by loading one runtime, then waking one persona route.
+A good first minute should answer one question:
 
-That wake-up step is done through a **boot command**.
+**does this route already feel alive**
 
----
-
-## What a Boot Command Is
-
-A boot command is the first activation phrase that tells the shared Avatar runtime which persona route to enter.
-
-In plain English:
-
-- the runtime is shared
-- the persona route is selected at boot
-- the selected route shapes the initial behavior surface
-- deeper tuning can happen later through `WFGY_BRAIN`
-
-This means a boot command is not just a cosmetic greeting.
-
-It is the first routing signal that tells the runtime how to begin.
+That is the whole point.
 
 ---
 
-## Current Boot Commands
+## The Fast Path
 
-The current public boot commands are:
+[Download `avatar.txt`](../downloads/avatar.txt)
 
-- `hello psbigbig`
-- `hello minips`
-- `hello YOUR_AVATAR_NAME`
+1. Upload it to a strong LLM  
+2. Say `hello psbigbig` or `hello minips` or `hello YOUR_AVATAR_NAME`  
+3. Start with `hello psbigbig` if this is your first run  
 
-These three commands do not represent three separate products.
+That is enough.
 
-They represent three public-facing activation routes inside the same Avatar runtime.
-
----
-
-## Why This Matters
-
-Most persona systems are introduced as separate files, separate presets, or separate prompt packs.
-
-Avatar is moving in a different direction.
-
-The current design is:
-
-1. load one runtime
-2. choose one boot route
-3. run one real task
-4. tune behavior if needed
-5. save a stronger variant later
-
-This makes the product easier to understand, easier to extend, and easier to grow into a real avatar system.
+Do not overcomplicate the first contact.
 
 ---
 
-## `hello psbigbig`
+## What First Contact Is Supposed to Do
 
-`hello psbigbig` activates the **PSBigBig** route.
+The first minute is not supposed to prove everything.
 
-This route is designed to feel:
+It is supposed to give you a clear signal.
 
-- calm
-- clear
-- steady
-- grounded
-- lightly witty
-- companion-capable without becoming soft
+You are checking things like:
 
-It is a good default route for:
+- does the route already feel distinct
+- does it feel less generic
+- does it feel more alive
+- does it feel like a route, not just one nice answer
+- does it feel worth tuning further
 
-- writing
-- analysis
-- public-facing replies
-- structured explanation
-- rational-friendly interaction
+That is already enough for the first pass.
 
-If you are not sure where to start, this is one of the safest first boots.
+If the first contact is clean, the rest of the system becomes much easier to understand.
 
 ---
 
-## `hello minips`
+## What To Do Right After Boot
 
-`hello minips` activates the **MiniPS** route.
+After boot, give Avatar **one real task**.
 
-This route is designed to feel:
+Good first tasks:
 
-- warm
-- present
-- cute
-- companion-forward
-- emotionally available
-- emoji-capable without collapsing into empty sweetness
+- rewrite a paragraph so it feels more alive
+- answer like a calm and usable assistant
+- explain a hard idea clearly
+- write a short public-facing post
+- respond warmly without becoming sugary
 
-It is a good default route for:
+Good first tasks share one trait:
 
-- conversation
-- reflective writing
-- emotional support-style interaction
-- companion-facing response
-- softer but still usable communication
+they are real enough to matter  
+but simple enough to compare later
 
-This route is not meant to be a sugar-only toy surface.
-
-It is meant to feel warm while still remaining usable.
+That balance is important.
 
 ---
 
-## `hello YOUR_AVATAR_NAME`
+## What Not To Do in the First Minute
 
-`hello YOUR_AVATAR_NAME` activates the intentionally bare custom-avatar route.
+This is where most bad first impressions come from.
 
-This route exists for a very specific reason.
+Do **not**:
 
-It is the simplest public way to show that Avatar is not limited to official named personas.
+- stack too many extra prompts
+- mix multiple persona routes at once
+- test ten unrelated tasks in one run
+- do chaos roleplay first
+- try to customize everything before first contact
+- judge the whole system from one noisy experiment
 
-It can also serve as the starting point for **your own avatar**.
+These mistakes do not prove Avatar is weak.
 
-In practice, this route should be read as:
+They prove the test was weak.
 
-- a default placeholder route
-- a minimal public custom-avatar entry
-- an intentionally simple starting posture
-- an editable path into a new persona build
-
-Yes, the name looks a little ridiculous.
-
-That is part of the charm.
-
-It is also part of the design.
-
-The point is to make custom-avatar creation feel obvious, not mystical.
-
-You can keep it as a funny baseline.
-You can replace the name.
-You can tune the route.
-You can slowly turn it into your own avatar.
+That difference matters.
 
 ---
 
-## One Runtime, Different Starts
+## The First-Contact Rule
 
-The most important idea on this page is simple:
+The cleanest first-contact rule is:
 
-**the runtime stays shared**
+**one runtime**
   
-**the starting route changes**
-
-That is why the boot layer matters.
-
-It keeps Avatar from feeling like a pile of unrelated persona files.
-
-Instead, it feels like one system with multiple activation paths.
-
-This is a much stronger product structure.
-
----
-
-## What Happens After Boot
-
-After a boot command is accepted, the runtime enters the selected route and begins responding from that persona posture.
-
-At that point, you can:
-
-- run a real task
-- observe the behavior
-- decide what feels off
-- adjust `WFGY_BRAIN`
-- rerun the same task
-- keep the stronger version
-
-So the boot command is the start of the route.
-
-It is not the end of the customization process.
-
----
-
-## What Boot Commands Do Not Do
-
-Boot commands are important, but they are not everything.
-
-They do **not**:
-
-- replace the shared runtime
-- replace governance
-- replace `WFGY_BRAIN`
-- replace the tuning workflow
-- instantly create a fully matured custom avatar by magic
-- remove the need for comparison and iteration
-
-The right mental model is:
-
-**boot first**
+**one route**
   
-**tune later**
-  
-**save what works**
+**one real task**
+
+That is it.
+
+If you do more than that too early, you usually reduce clarity instead of gaining it.
+
+The first minute should be light enough to stay readable.
 
 ---
 
-## A Good First Use Pattern
+## Which Route to Use First
 
-If this is your first real Avatar session, use this order:
+### `hello psbigbig`
+Best first route if you want the safest clean test.
 
-### Step 1
-Load `avatar.txt` into a strong LLM.
+Use this if you want to feel:
 
-### Step 2
-Use one boot command only.
+- calm writing
+- grounded explanation
+- public-facing usability
+- clear rational tone
 
-Examples:
+### `hello minips`
+Use this if you want to test the warmer companion-facing side first.
 
-- `hello psbigbig`
-- `hello minips`
-- `hello YOUR_AVATAR_NAME`
+Use this if you care more about:
 
-### Step 3
-Give the system one real task.
+- presence
+- warmth
+- softness with usability
+- emotionally friendlier response
 
-### Step 4
-Watch how the behavior feels.
+### `hello YOUR_AVATAR_NAME`
+Use this if you want to explore the intentionally bare custom-avatar seed.
 
-### Step 5
-If needed, refine the route later through `WFGY_BRAIN`.
+This route is not the polished showcase route.
 
-This is the cleanest first-contact flow.
+It is the “start from here and shape it later” route.
 
----
-
-## When to Use Each Route
-
-| Route | Best first use |
-|---|---|
-| `hello psbigbig` | clear writing, analysis, calm public-facing work |
-| `hello minips` | warm interaction, companion-style flow, reflective response |
-| `hello YOUR_AVATAR_NAME` | custom-avatar starting point, playful baseline, editable route for your own branch |
-
-This table is not a prison.
-
-It is only a strong first guide.
+That is why it exists.
 
 ---
 
-## Why `YOUR_AVATAR_NAME` Is Kept Publicly Visible
+## How To Tell If the First Run Is Good
 
-Some systems hide customization behind complicated setup.
+A good first run does not need to be perfect.
 
-Avatar does the opposite.
+It just needs to give a strong signal.
 
-It leaves a very visible public reminder that the system is branchable.
+Good signs:
 
-That is why `YOUR_AVATAR_NAME` matters.
+- the route feels distinct
+- the route feels less default
+- the route feels more controlled
+- the route feels like it can be tuned
+- the route feels worth a second pass
 
-It tells the user, immediately:
+Weak signs:
 
-- official routes exist
-- custom routes also exist
-- this runtime is not locked to two names forever
+- it already feels generic
+- it feels noisy and overstuffed
+- it feels like random prompt luck
+- it feels impossible to describe what happened
+- it feels like you learned nothing from the run
 
-That is a very important part of the product direction.
+The first run should create direction.
 
----
-
-## Common Mistakes
-
-### Using multiple boot commands in the same opening line
-Do not activate several routes at once.
-Start with one.
-
-### Treating the boot command as the whole system
-The boot command selects a start.
-It does not replace the runtime or the tuning layer.
-
-### Trying to customize everything before the first real task
-Boot first.
-Test once.
-Then tune.
-
-### Expecting `YOUR_AVATAR_NAME` to be fully polished by default
-That route is intentionally simple.
-Its power comes from customization.
+Not confusion.
 
 ---
 
-## Where This Leads Next
+## What To Do If It Feels Off
 
-Boot commands are only the entry layer.
+Do **not** throw the whole system away immediately.
 
-After this page, the natural next steps are:
+If the route feels off:
 
-1. use the quickstart
-2. learn how to tune `WFGY_BRAIN`
-3. follow the avatar tuning workflow
-4. later build and submit your own avatar branch
+1. keep the same route  
+2. identify one main problem  
+3. adjust `WFGY_BRAIN`  
+4. rerun the same task  
+5. compare before and after  
 
-That is where the system becomes much more interesting.
+That is where the real product begins.
+
+The first run is not the whole story.
+
+It is the beginning of the story.
+
+---
+
+## Why This Matters So Much
+
+A lot of systems lose people in the first minute for bad reasons.
+
+Not because the system has no potential.
+
+But because the first interaction is:
+
+- too cluttered
+- too abstract
+- too overexplained
+- too hard to test cleanly
+
+Avatar is trying to make first contact simpler than that.
+
+That is why this page matters.
+
+The first minute should feel:
+
+- fast
+- legible
+- real
+- usable
+- worth continuing
+
+That is already a strong product advantage.
+
+---
+
+## What This Page Does Not Claim
+
+This page does **not** claim:
+
+- that one first run proves full product strength
+- that multilingual work is already fully shown here
+- that custom-avatar building is finished in one minute
+- that theory is unnecessary forever
+- that one route fits every user immediately
+
+This page is about first contact.
+
+Nothing more needs to be forced into it.
+
+---
+
+## Where To Go Next
+
+### If you want the route layer
+Go to [🧷 Boot Commands](../docs/boot-commands.md)
+
+### If you want the editable layer
+Go to [🛠️ How to Use WFGY_BRAIN](../docs/how-to-use-wfgy-brain.md)
+
+### If you want the full tuning path
+Go to [🧭 Avatar Tuning Workflow](../docs/avatar-tuning-workflow.md)
+
+### If you want the highlights map
+Go to [✨ Highlights Index](./README.md)
 
 ---
 
 ## Quick Links
 
 - [🏠 Avatar Home](../README.md)
-- [⚡ Quickstart](./quickstart.md)
-- [🛠️ How to Use WFGY_BRAIN](./how-to-use-wfgy-brain.md)
-- [🧭 Avatar Tuning Workflow](./avatar-tuning-workflow.md)
-- [✨ Highlights Index](../highlights/README.md)
+- [🧷 Boot Commands](../docs/boot-commands.md)
+- [🛠️ How to Use WFGY_BRAIN](../docs/how-to-use-wfgy-brain.md)
+- [🧭 Avatar Tuning Workflow](../docs/avatar-tuning-workflow.md)
+- [✨ Highlights Index](./README.md)
 - [⬆️ Back to WFGY Root](../../README.md)
