@@ -23,6 +23,8 @@ AI_NOTE_END
 
 > **One runtime. Many avatars.**
 
+<img width="1536" height="1024" alt="Avatar_Hero" src="https://github.com/user-attachments/assets/876c15a5-ceb3-4697-a019-719b6ab06133" />
+
 A governed language runtime for building, tuning, and multiplying avatars.
 
 Avatar is not another AI writing preset.  
