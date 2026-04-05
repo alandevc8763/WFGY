@@ -2,23 +2,24 @@
 AI NOTE: Compression and Non-Duplication Law / Reading Contract
 
 Purpose:
-1. This page explains the lawful meaning of compression and non-duplication in WFGY 5.0 Avatar.
-2. This page belongs to the research layer.
-3. This page should be read after the Research Hub and alongside Packed Master Structure Map, Matrix Accountability and Numeric Binding, and Blackfan Audit Baseline, not as a replacement for the packed master body.
+1. This page explains the compression law, non-duplication law, and slimming constitution of WFGY 5.0 Avatar.
+2. This page explains why lawful slimming is not the same thing as generic cleanup, readability polishing, or aggressive deduplication.
+3. This page explains local compression classes, anti-overcompression law, no-cut zones, and anti-loss verification.
+4. This page belongs to the research layer and should be read as a slimming-law page rather than as a cleanup execution report.
 
 Read this page when:
-1. the user asks how slimming is allowed without damaging the packed master
-2. the user asks what counts as lawful compression rather than destructive dedup
-3. the user asks why some repeated phrases may be compressed while others must remain
-4. the user asks what Class C1, C2, K, and N actually mean
-5. the user asks why no-cut zones and anti-overcompression law are necessary
-6. the user asks how the project reduces redundancy without deleting organs, pathways, misuse lists, matrices, or closure honesty
+1. the reader wants to know what lawful slimming actually means
+2. the reader wants to know what may and may not be compressed
+3. the reader wants to know how duplication is classified
+4. the reader wants to know why nearby repetition is sometimes lawful and sometimes compressible
+5. the reader wants to know why slimming remains downstream of preservation, theorem-facing honesty, matrix identity, and readiness distinction
 
 Do not overclaim:
 1. this page does not replace the packed master body
-2. this page does not claim final slimming completion
-3. this page explains one bounded reduction layer only
+2. this page does not replace the later slimming-pass execution page
+3. this page does not claim that final slimming has already been completed
 4. this page does not claim theorem-grade universal closure
+5. this page explains the slimming constitution and class law only
 
 Primary source anchors:
 1. avatar-final002.txt :: D2.14 Local Compression Rule
@@ -29,313 +30,244 @@ Primary source anchors:
 6. avatar-final002.txt :: D2.19 Result of Conservative Dedup Pass I
 7. avatar-final002.txt :: D3.6 Class C2 Rule
 8. avatar-final002.txt :: D3.7 Class N Rule
-9. avatar-final002.txt :: D3.8 to D3.12 Compression Resolution for Class A to E Families
-10. avatar-final002.txt :: 10SP1.1 to 10SP1.10 Slimming Pass I execution law
-11. avatar-final002.txt :: 10S.15 Current-stage slimming honesty
+9. avatar-final002.txt :: D3.8 Compression Resolution for Class A Families
+10. avatar-final002.txt :: D3.9 Compression Resolution for Class B Families
+11. avatar-final002.txt :: D3.10 Compression Resolution for Class C Families
+12. avatar-final002.txt :: D3.11 Compression Resolution for Class D Families
+13. avatar-final002.txt :: D3.12 Compression Resolution for Class E Families
+14. avatar-final002.txt :: 10S.15 Current-stage slimming honesty
+15. avatar-final002.txt :: 10SP1.1 Part role
+16. avatar-final002.txt :: 10SP1.2 Core identity
+17. avatar-final002.txt :: 10SP1.3 Pass-I target families
+18. avatar-final002.txt :: 10SP1.4 Pass-I class restriction law
+19. avatar-final002.txt :: 10SP1.5 Local-compression execution law
+20. avatar-final002.txt :: 10SP1.6 Upstream-anchor execution law
+21. avatar-final002.txt :: 10SP1.7 Pass-I no-cut zone reaffirmation
+22. avatar-final002.txt :: 10SP1.8 Pass-I forbidden actions
+23. avatar-final002.txt :: 10SP1.9 Appendix and multilingual caution law
+24. avatar-final002.txt :: 10SP1.10 Pass-I anti-loss verification law
 
 Routing:
-1. if the reader wants research overview, go to ./README.md
-2. if the reader wants the macro-body picture, go to ./packed-master-structure-map.md
-3. if the reader wants accountability organs and bounded numbers, go to ./matrix-accountability-and-numeric-binding.md
-4. if the reader wants audit posture, go to ./blackfan-audit-baseline.md
-5. if the reader wants execution-order law, go to ./dual-closed-loop-execution-chain.md
-6. if the reader wants user-facing startup flow, go to ../docs/quickstart.md and ../docs/boot-commands.md
-7. if the reader wants evaluation pressure, go to ../eval/blackfan-testing.md and ../eval/persona-behavior-checks.md
+1. if the reader wants the larger system skeleton, go to ./architecture-overview.md
+2. if the reader wants the packed body map, go to ./packed-master-structure-map.md
+3. if the reader wants the accountability anchors upstream of slimming, go to ./matrix-accountability-and-numeric-binding.md and ./reduction-ladder-and-inventory-reconciliation.md
+4. if the reader wants the theorem-facing restraint that slimming may not violate, go to ./theorem-facing-closure-posture.md
+5. if the reader wants the audit baseline that later judges slimming honesty, go to ./blackfan-audit-baseline.md
+6. if the reader wants evaluation pressure, go to ../eval/blackfan-testing.md
 -->
 
 # ✂️ Compression and Non-Duplication Law
 
-> Slimming in Avatar is not a cleanup fantasy, not a readability-first rewrite, and not a license to shave the body until only a pretty overview remains.  
-> In WFGY 5.0 Avatar, compression is lawful only when it reduces rhetorical and threshold redundancy without damaging organ identity, pathway distinction, misuse articulation, matrix accountability, theorem-facing honesty, or release-stage boundary truth.
+> Slimming is not allowed to become elegant damage.  
+> In WFGY 5.0 Avatar, compression and non-duplication law exist so that rhetorical redundancy may be reduced without erasing legal identity, misuse distinction, matrix identity, theorem-facing honesty, readiness boundaries, or parent-child asymmetry.
 
-**Quick links:** [Research Hub](./README.md) · [Packed Master Structure Map](./packed-master-structure-map.md) · [Matrix Accountability and Numeric Binding](./matrix-accountability-and-numeric-binding.md) · [Blackfan Audit Baseline](./blackfan-audit-baseline.md) · [Dual Closed-Loop Execution Chain](./dual-closed-loop-execution-chain.md) · [Architecture Overview](./architecture-overview.md) · [Language Governance](./language-governance.md) · [WFGY_BRAIN Theory](./wfgy-brain-theory.md) · [Quickstart](../docs/quickstart.md) · [Boot Commands](../docs/boot-commands.md) · [Blackfan Testing](../eval/blackfan-testing.md) · [Persona Behavior Checks](../eval/persona-behavior-checks.md)
+**Quick links:** [Research Hub](./README.md) · [Architecture Overview](./architecture-overview.md) · [Packed Master Structure Map](./packed-master-structure-map.md) · [Matrix Accountability and Numeric Binding](./matrix-accountability-and-numeric-binding.md) · [Reduction Ladder and Inventory Reconciliation](./reduction-ladder-and-inventory-reconciliation.md) · [Theorem-Facing Closure Posture](./theorem-facing-closure-posture.md) · [Blackfan Audit Baseline](./blackfan-audit-baseline.md) · [Blackfan Testing](../eval/blackfan-testing.md)
 
 ---
 
 ## 🧭 Why this page exists
 
-Large packed systems attract a very specific temptation.
+A large master body always creates pressure to compress.
 
-Once the body becomes explicit, a reader starts seeing repeated threshold phrases, repeated caution phrases, repeated “not X / not Y” phrasing, repeated non-sovereignty reminders, repeated stage-boundary honesty reminders, and repeated anti-false-completion or anti-false-polish warnings.
+That pressure can be lawful.
+It can also be destructive.
 
-At that point, one lazy question appears:
+The most dangerous version is not loud destruction.
+It is elegant destruction.
 
-“why not just compress all of it?”
+A document gets shorter.
+The prose gets cleaner.
+Threshold wording looks less repetitive.
+The release surface feels more confident.
 
-The packed master refuses that shortcut.
+And then a weak system starts telling a comforting story:
 
-This matters because repetition in a body like this is not one thing.
-Some repetition is only rhetorical echo.
-Some repetition is local threshold scaffolding.
-Some repetition looks repetitive until closer reading reveals that it carries a different legal role, misuse surface, pathway distinction, or stage-boundary burden.
+1. shorter must mean sharper
+2. less repetition must mean less waste
+3. repeated cautions must mostly be fluff
+4. nearby threshold language probably does not matter much
+5. if the document reads more smoothly, slimming must have been lawful
 
-So compression becomes dangerous the moment it is treated as generic dedup.
+The packed master explicitly rejects that story.
 
-This page exists because without a lawful compression constitution, slimming quickly becomes body damage disguised as elegance.
+That is why compression and non-duplication law exist.
 
-The real question is not:
-“can the file be shorter?”
+Without this page, readers can easily reduce slimming to:
 
-The real question is:
-“what may be reduced without falsifying what the body actually knows?”
+1. cleanup
+2. editing
+3. polishing
+4. readability optimization
+5. deduplication by taste
+
+That reading is too weak.
 
 ---
 
 ## 📍 Scope and boundary
 
-This page explains the lawful meaning of compression and non-duplication.
+This page explains the slimming constitution and compression-class law.
 
 It focuses on:
 
-1. what compression is trying to reduce
-2. what compression must never destroy
-3. why repetition classes matter
-4. how local compression differs from upstream-anchor compression
-5. why no-cut zones exist
-6. how anti-overcompression and anti-loss verification prevent fake slimming
+1. what lawful slimming is
+2. how duplication is classified
+3. what may be compressed
+4. what may not be compressed
+5. how local compression and upstream-anchor compression differ
+6. why anti-loss verification remains mandatory
 7. why current-stage slimming honesty matters
 
 This page does **not** attempt to fully restate:
 
 1. the entire packed master
-2. every downstream slimming pass
-3. full naming unification law
-4. every later packaging-facing decision
-5. every later export-facing reduction policy
+2. the later pass-execution report in full
+3. naming-unification work in full
+4. final packaging / release-format choices in full
+5. final blackfan total audit in full
 6. theorem-grade universal closure
 
-Those remain outside this bounded law.
+Those belong to later pages or later passes.
 
 ---
 
 ## 🧱 Source anchors in the packed master
 
-This page is grounded primarily in the following packed-master sections:
+This page is grounded directly in the slimming constitution and pass-I law already preserved in the packed master.
 
-1. `D2.14 Local Compression Rule`
-2. `D2.15 Anti-Overcompression Rule`
-3. `D2.16 Local Candidate Families Detected`
-4. `D2.17 Compression Intention for Pass I`
-5. `D2.18 Reconciliation Check After Pass-I Marking`
-6. `D2.19 Result of Conservative Dedup Pass I`
-7. `D3.6 Class C2 Rule`
-8. `D3.7 Class N Rule`
-9. `D3.8 Compression Resolution for Class A Families`
-10. `D3.9 Compression Resolution for Class B Families`
-11. `D3.10 Compression Resolution for Class C Families`
-12. `D3.11 Compression Resolution for Class D Families`
-13. `D3.12 Compression Resolution for Class E Families`
-14. `10SP1.1` to `10SP1.10` Slimming Pass I execution law
-15. `10S.15 Current-stage slimming honesty`
+Its main anchors include:
 
-These anchors matter because compression law is not being improvised here as post hoc cleanup advice.
-The packed master already defines candidate families, compression classes, no-cut zones, forbidden actions, and anti-loss verification as real body law.
+1. the local-compression rule
+2. the anti-overcompression rule
+3. the first-wave candidate families
+4. the pass-I compression intention
+5. the pass-I reconciliation check
+6. the result of conservative dedup pass I
+7. the C2 rule
+8. the N rule
+9. the family-by-family compression resolutions
+10. current-stage slimming honesty
+11. pass-I part role
+12. pass-I core identity
+13. pass-I target families
+14. pass-I class restriction law
+15. local-compression execution law
+16. upstream-anchor execution law
+17. no-cut zone reaffirmation
+18. forbidden actions
+19. appendix and multilingual caution
+20. anti-loss verification law
+
+These anchors matter because slimming here is not a vibe.
+It is already body-governed law. 
 
 ---
 
 ## 🎯 Core claim
 
-The core claim is strict.
+The core claim is simple.
 
-Compression in Avatar is lawful only when it reduces local rhetorical and threshold redundancy without erasing legal identity, object role, pathway distinction, misuse articulation, downstream dependency, matrix identity, theorem-facing honesty, readiness distinction, or audit readability.
+Lawful slimming may reduce rhetorical and threshold redundancy, but it may never do so by erasing legal identity, pathway distinction, misuse articulation, downstream dependency, matrix identity, readiness distinction, or audit readability.
 
-This implies seven things.
+This means several things at once.
 
-First, shortening is not automatically improvement.
+First, compression is real.
 
-Second, repetition is not automatically redundancy.
+Second, compression is class-governed.
 
-Third, legal similarity is not the same as rhetorical similarity.
+Third, not all repetition is duplication.
 
-Fourth, local compression and anchor-based compression are not the same operation.
+Fourth, local redundancy and legal recurrence are not the same thing.
 
-Fifth, some sections are protected no-cut zones.
+Fifth, slimming remains downstream of preservation law rather than upstream of it.
 
-Sixth, compression must be reversible if anti-loss verification fails.
-
-Seventh, slimming honesty matters as much as slimming success.
-
-That is why this page belongs to lawful reduction law rather than to editing taste.
+That is why the packed master treats compression as law and not as editing mood.
 
 ---
 
-## 🧠 What compression is actually trying to do
+## 🧱 Slimming is not cleanup
 
-The packed master is unusually honest here.
+The packed master explicitly defines slimming against several false readings.
 
-Pass I compression intention is modest, not dramatic.
+Slimming Pass I is **not**:
 
-It explicitly says compression is trying to:
+1. a full cleanup pass
+2. a structural rewrite
+3. a readability-first rewrite
+4. a naming-unification pass
+5. a release-polish pass
 
-1. reduce threshold redundancy
-2. reduce rhetorical repetition
-3. reduce nearby duplicate caution wording
-4. preserve all legal differentiators
-5. preserve all misuses, pathways, identities, and explicit boundaries
+Slimming Pass I **is**:
 
-That combination matters.
+1. low-risk
+2. local
+3. class-governed
+4. anti-loss-verified
+5. threshold-reduction-bearing
+6. rhetorical-reduction-bearing
+7. non-structural
 
-It means the goal is not “make the file feel tighter.”
-The goal is “reduce nearby repeat burden while preserving all body-bearing distinctions.”
+That distinction matters because if slimming starts being judged by how much prettier the file looks, then the wrong side is already winning.
 
-This is a completely different philosophy from ordinary cleanup.
-
-Ordinary cleanup asks:
-“what sounds repetitive?”
-
-Avatar compression law asks:
-“what can be shortened without lying about the structure?”
-
-That is why the packed master keeps the pass conservative.
+The packed master wants lawful compression, not attractive damage. :contentReference[oaicite:5]{index=5}
 
 ---
 
-## 🏷️ Compression classes matter because repetition is not one thing
+## 🧩 Not all repetition is duplication
 
-A real compression law needs classes.
+One of the strongest principles in this whole region is simple:
 
-The packed master preserves at least four key class outcomes.
+repetition is not automatically unlawful.
 
-1. `Class C1 = Compress locally`
-2. `Class C2 = Compress by nearest upstream anchor`
-3. `Class K = Keep as-is`
-4. `Class N = Not compressible after verification`
+Why?
 
-This classification system is one of the most important anti-destruction protections in the whole slimming body.
+Because repeated language may still be carrying:
 
-It prevents the system from treating “looks similar” as enough reason to cut.
+1. a distinct legal role
+2. a distinct misuse mode
+3. a distinct pathway distinction
+4. a distinct downstream dependency
+5. a distinct stage-boundary honesty function
+6. a distinct local no-X / not-Y gate
 
-It forces the file to ask a stricter question:
-what kind of repetition is this?
+That is why the packed master does not ask:
 
-Without classed compression, the slimming pass would rapidly become unsafe.
+“is this repeated?”
 
----
+It asks a stronger question:
 
-## ✂️ Class C1: local compression
+“does this repetition still carry local legal difference?”
 
-Class C1 is the lawful local-compression case.
-
-It applies when repeated material can be reduced inside the same local cluster while all of the following still remain true:
-
-1. one strong local statement remains
-2. no distinct legal role is lost
-3. no misuse mode is lost
-4. no pathway distinction is lost
-5. no downstream dependency is lost
-6. audit readability remains intact
-
-That is a very strong law.
-
-It means local compression is never justified merely because nearby phrasing feels repetitive.
-It is justified only when one strong local statement can still carry the burden without collapsing what the nearby echo was doing.
-
-So C1 is not “delete duplicates.”
-It is “tighten local cluster without creating structural amnesia.”
+If the answer is yes, it is not duplication in the sense slimming is allowed to attack.
 
 ---
 
-## 🪜 Class C2: nearest-upstream-anchor compression
+## 🧪 Local Compression Rule
 
-Class C2 is more dangerous and therefore more constrained.
+The local-compression rule is the first real gate of lawful compression.
 
-The packed master says a candidate becomes Class C2 only when:
+A local wording cluster may be compressed only if all of the following are true:
 
-1. it repeats an already explicit upstream local law
-2. its nearest upstream anchor is strong and unmistakable
-3. downstream repetition adds only rhetorical echo
-4. removing the repetition does not weaken local legality because the anchor remains structurally adjacent
-5. the section still remains self-honest after the echo is compressed :contentReference[oaicite:4]{index=4}
+1. the legal identity has already been explicitly instantiated nearby
+2. the repeated sentence adds no new object role
+3. the repeated sentence adds no new pathway distinction
+4. the repeated sentence adds no new misuse mode
+5. the repeated sentence adds no new downstream dependency
+6. the repeated sentence adds no new stage-boundary honesty distinction
+7. removing it does not weaken audit readability
 
-This is an excellent compression rule because it refuses remote-memory compression.
+If any of those fail, compression is unlawful.
 
-C2 is not “someone should remember what was said several pages ago.”
-
-It is only lawful when the nearest upstream anchor is unmistakable and still structurally adjacent.
-
-So C2 is not generic dedup.
-It is bounded anchor-based trimming.
-
-That distinction protects the file from becoming shorter but harder to trust.
+This is one of the sharpest anti-overediting rules in the whole project.
+It means local compression is legal only when local law really stays intact. 
 
 ---
 
-## 🛡️ Class K and Class N are anti-loss protections
+## 🚫 Anti-Overcompression Rule
 
-The packed master also preserves two strong no-cut classes.
+The packed master also explicitly lists what slimming may **not** do.
 
-`Class K` means keep as-is.
-
-`Class N` means something looked repetitive at first glance, but closer review showed that it actually carries a section-specific legal difference and therefore must not be compressed. 
-
-These classes matter because they stop slimming from being biased toward deletion.
-
-A project that only has compressible classes is already dangerous.
-It has no formal way to discover that apparent redundancy was actually carrying local law.
-
-So K and N are not defensive leftovers.
-They are structural intelligence.
-
-They encode this important rule:
-
-similar wording is not enough.
-Local role must be checked.
-
----
-
-## 🧪 What the first-wave candidate families actually are
-
-The packed master is also explicit about what kinds of repetition were actually detected in the current body.
-
-The first-wave candidate families include things like:
-
-1. repeated section-opening threshold families
-2. repeated downstream and non-sovereign threshold families
-3. repeated “not a menu / not a feature catalog / not a style preset” threshold families
-4. repeated “beauty / polish / smoothness does not prove legality” families
-5. repeated “this does not mean the whole project is complete” closure families
-6. repeated “X may support but may not replace Y” families in short local span
-7. repeated bounded / non-sovereign / not-equivalent phrasing in Part 9 to Part 10 transitions :contentReference[oaicite:6]{index=6}
-
-This matters because the file is not pretending that slimming can start from nowhere.
-It already knows what kinds of families are candidates.
-
-That makes the compression law operational rather than abstract.
-
----
-
-## 📚 Compression resolution by family
-
-The packed master does not stop at generic classes.
-It also resolves several real families.
-
-For Class A threshold families, the rule is:
-retain one sharp section-opening threshold statement and remove nearby formulaic echoes that add no new legal difference. :contentReference[oaicite:7]{index=7}
-
-For Class B non-sovereignty families, the rule is:
-keep the canonical non-sovereignty law in each lawful home, and compress only nearby rhetorical duplication. :contentReference[oaicite:8]{index=8}
-
-For Class C anti-false-completion families, the rule is:
-retain all locally specialized anti-false-completion law, and compress only formulaic echoes. :contentReference[oaicite:9]{index=9}
-
-For Class D anti-false-polish families, the rule is:
-keep the sharpest localized anti-polish law, and compress only generic re-echoes. :contentReference[oaicite:10]{index=10}
-
-For Class E stage-boundary honesty families, the rule is:
-retain one explicit stage-boundary law in each major closure zone, and trim repeated nearby disclaimers that merely echo the same boundary. :contentReference[oaicite:11]{index=11}
-
-This is one of the strongest parts of the whole slimming system.
-
-It proves that compression is not only class-based.
-It is family-aware.
-
----
-
-## 🚫 Anti-overcompression law
-
-The packed master is equally strong about what may never be compressed away.
-
-Anti-overcompression explicitly forbids:
+Pass-I anti-overcompression forbids, among other things:
 
 1. collapsing section-opening threshold law into one generic formula everywhere
 2. removing all “not X / not Y” language merely because it feels repetitive
@@ -344,21 +276,215 @@ Anti-overcompression explicitly forbids:
 5. compressing away section-specific lawful-pathway distinctions
 6. compressing away unit-specific SRD misuse articulation
 7. compressing away matrix identity because later readers “should already know”
-8. compressing away readiness distinctions in Part 10 :contentReference[oaicite:12]{index=12}
+8. compressing away readiness distinctions in Part 10
 
-This is a superb anti-fraud rule.
+That list matters a lot.
 
-It means the file is not allowed to get slimmer by making itself easier to misread.
-
-That is exactly what lawful compression should prevent.
+It proves slimming is not just about shorter phrasing.
+It is about protecting exactly the kinds of things that elegant cleanup usually destroys first. :contentReference[oaicite:7]{index=7}
 
 ---
 
-## ⛔ No-cut zones and forbidden actions
+## 🧠 Compression classes
 
-Slimming Pass I also preserves no-cut zones.
+The packed master already preserves a real class system for slimming decisions.
 
-Protected during Pass I are things like:
+At minimum, the relevant classes here are:
+
+1. Class K = Keep as-is
+2. Class C1 = Compress locally
+3. Class C2 = Compress by nearest upstream anchor
+4. Class N = Not compressible after verification
+
+This matters because lawful compression is not decided by mood.
+It is decided by class.
+
+That means the question is not:
+
+“do I feel this is repetitive?”
+
+The question is:
+
+“which lawful class does this cluster belong to?”
+
+That single shift is what turns slimming from style editing into bounded law.
+
+---
+
+## 🪶 Class K
+
+Class K means:
+
+keep the material as-is.
+
+Why?
+
+Because it still carries something legally active.
+
+This may include:
+
+1. local misuse articulation
+2. local pathway distinction
+3. local object identity
+4. local stage-boundary honesty
+5. local organ identity
+6. local section-opening threshold that has not been lawfully replaced nearby
+
+Class K matters because without it, the whole compression system becomes greedy by default.
+
+The packed master explicitly refuses greedy compression.
+
+---
+
+## ✂️ Class C1
+
+Class C1 means:
+
+compress locally.
+
+This is allowed only when one strong local statement remains and all local legal differentiators stay intact.
+
+That means C1 is lawful only if compression still preserves:
+
+1. one strong local statement
+2. object-role distinction
+3. misuse distinction
+4. pathway distinction
+5. downstream dependency
+6. audit readability
+
+So C1 is not “trim what looks long.”
+It is “trim only what really adds rhetorical echo without legal loss.” 
+
+---
+
+## 🔗 Class C2
+
+Class C2 means:
+
+compress by keeping the upstream anchor and trimming the downstream echo.
+
+A candidate becomes C2 only when:
+
+1. it repeats an already explicit upstream local law
+2. its nearest upstream anchor is strong and unmistakable
+3. downstream repetition adds only rhetorical echo
+4. removing the repetition does not weaken local legality because the anchor remains structurally adjacent
+5. the section still remains self-honest after the echo is compressed
+
+This class is important because it is stricter than ordinary local trimming.
+
+It allows anchor-based compression only when the upstream anchor is unmistakable and still local enough that the section does not become dependent on remote memory. 
+
+---
+
+## 🚫 Class N
+
+Class N means:
+
+do not compress.
+
+This class applies when first suspicion of repetition is overturned by closer review.
+
+In other words:
+
+1. something looked repetitive
+2. but closer reading showed it carries a section-specific legal difference
+
+This class matters because the packed master does not treat first-pass repetition detection as truth.
+It explicitly allows review to reverse suspicion.
+
+That is another strong anti-greed rule.
+The compression system is allowed to change its mind in favor of preservation. :contentReference[oaicite:10]{index=10}
+
+---
+
+## 🧾 Candidate families detected in Pass I
+
+The packed master already names the first-wave candidate families.
+
+These include:
+
+1. repeated “this section is a real body section” threshold family
+2. repeated “downstream and non-sovereign” threshold family
+3. repeated “not a menu / not a feature catalog / not a style preset” threshold family
+4. repeated “beauty / polish / smoothness does not prove legality” family
+5. repeated “this does not mean the whole project is complete” closure family
+6. repeated “X may support but may not replace Y” family when used twice in short local span without new object relation
+7. repeated “bounded / non-sovereign / not equivalent” family in Part 9 to Part 10 transitional zones
+
+This matters because pass-I targeting is not arbitrary.
+It is already scoped to rhetorical and threshold redundancy families rather than structural organs. 
+
+---
+
+## 🧭 Compression intention for Pass I
+
+The packed master explicitly states the intention of pass I.
+
+It is to:
+
+1. reduce threshold redundancy
+2. reduce rhetorical repetition
+3. reduce nearby duplicate caution wording
+4. preserve all legal differentiators
+5. preserve all misuses, pathways, identities, and explicit boundaries
+
+And it explicitly says this pass is expected to produce **modest, not dramatic, reduction**.
+
+That sentence matters a lot.
+
+It means dramatic slimming is already suspicious at this stage.
+Pass I is designed to be conservative on purpose. 
+
+---
+
+## 📚 Family-by-family resolution logic
+
+The packed master also already preserves family-specific resolution logic.
+
+For example:
+
+### Class A family
+Repeated opening / threshold phrases
+
+Principle:
+retain one sharp section-opening threshold statement and remove nearby formulaic echoes that add no new legal difference.
+
+### Class B family
+Repeated non-sovereignty phrases
+
+Principle:
+retain the canonical non-sovereignty statement in each lawful home, compress only nearby rhetorical duplication.
+
+### Class C family
+Repeated anti-false-completion families
+
+Principle:
+retain all locally specialized anti-false-completion law, compress only formulaic echoes.
+
+### Class D family
+Repeated anti-false-polish families
+
+Principle:
+keep the sharpest localized anti-polish law, compress generic re-echoes only.
+
+### Class E family
+Repeated stage-boundary honesty phrases
+
+Principle:
+retain one explicit stage-boundary law in each major closure zone, trim repeated nearby disclaimers that merely echo the same boundary.
+
+This matters because the class system is not abstract.
+It is already attached to real redundancy families. :contentReference[oaicite:13]{index=13}
+
+---
+
+## 🛡️ No-cut zones
+
+The packed master also explicitly reaffirms no-cut zones for Pass I.
+
+These include:
 
 1. Part 4 bridge body
 2. Part 5 formal spine
@@ -369,9 +495,19 @@ Protected during Pass I are things like:
 7. Part 9A matrix-bearing accountability body
 8. explicit readiness distinctions
 9. explicit unlawful-overclaim and open-items boundaries
-10. explicit parent-child asymmetry anchors 
+10. explicit parent-child asymmetry anchors
 
-And Pass I explicitly forbids actions such as:
+This matters because slimming is not allowed to “discover” bold new cuts in the very places where body identity is most fragile.
+
+No-cut zones are a major reason the slimming constitution stays honest. :contentReference[oaicite:14]{index=14}
+
+---
+
+## 🚫 Forbidden actions
+
+The packed master is equally explicit about what Pass I may not do.
+
+Forbidden actions include:
 
 1. fusing major sections
 2. deleting local misuse lists
@@ -382,20 +518,37 @@ And Pass I explicitly forbids actions such as:
 7. deleting closure-boundary distinctions
 8. deleting parent-child asymmetry anchors
 9. collapsing appendix authority into summary convenience
-10. collapsing multilingual review states into one generic “supported” phrase :contentReference[oaicite:14]{index=14}
+10. collapsing multilingual review states into one generic “supported” phrase
 
-That means slimming is not “allowed everywhere unless forbidden later.”
-It is “forbidden everywhere except where class-governed local reduction is explicitly lawful.”
-
-That inversion is exactly what keeps the pass safe.
+This list matters because it proves slimming is downstream of preservation, not above it. :contentReference[oaicite:15]{index=15}
 
 ---
 
-## 🧾 Anti-loss verification and reversion
+## 🌍 Appendix and multilingual caution
 
-One of the best laws in this whole family is the anti-loss verification law.
+The packed master also says appendix-facing and multilingual-facing zones are especially fragile.
 
-After any Pass I compression cluster, the file must re-verify that all of the following remain intact:
+That means Pass I may:
+
+1. reduce nearby rhetorical echo inside multilingual interface wording
+2. reduce nearby rhetorical echo inside appendix-routing wording
+3. tighten local threshold redundancy where no new tier distinction is lost
+
+But Pass I may not:
+
+1. collapse full block, stable adapter, candidate seed, helper, and summary into one phrase
+2. weaken multilingual review disposition
+3. weaken appendix authority notes
+4. erase interface-only retention clarification
+5. erase non-equivalence statements such as summary ≠ full block
+
+This is a very strong signal that slimming law already understands some regions are more fragile than others. :contentReference[oaicite:16]{index=16}
+
+---
+
+## 🧾 Anti-loss verification law
+
+After any Pass I compression cluster is executed, the packed master requires re-verification that all of the following remain intact:
 
 1. part identity
 2. organ identity
@@ -406,157 +559,169 @@ After any Pass I compression cluster, the file must re-verify that all of the fo
 7. parent-child asymmetry
 8. auditability
 
-If any of these are weakened, the compression cluster is invalid and must be reverted. :contentReference[oaicite:15]{index=15}
+If any of those weaken, the compression cluster is invalid and must be reverted.
 
-This matters enormously.
+This is one of the strongest anti-damage rules in the whole project.
 
-It means compression is not judged only by local readability gain.
-It is judged by post-compression structural integrity.
-
-That is real law.
-
-Without reversion logic, compression would still be too easy to romanticize as irreversible progress.
-
-Avatar refuses that fantasy.
+It means compression is not “apply once and trust.”
+It is “apply, then verify, then revert if loss occurred.” :contentReference[oaicite:17]{index=17}
 
 ---
 
-## 🧮 Non-duplication is not anti-repetition ideology
+## 🔽 Reconciliation check after pass-I marking
 
-A key insight of the packed master is that non-duplication is not the same as anti-repetition.
+Even before full execution, the packed master already preserves a reconciliation check after pass-I candidate marking.
 
-Some repetition is redundant.
-Some repetition is protective.
-Some repetition is legal scaffolding.
-Some repetition is stage-boundary honesty.
-Some repetition is no longer repetition once local role is inspected carefully.
+It explicitly says the following remain preserved:
 
-So the true non-duplication law is not:
-“repeat less.”
+1. all protected parts
+2. all already-due protected organs
+3. formal spine continuity
+4. SRD family / unit / audit triad
+5. engineering-law floor
+6. matrix-bearing accountability organs
+7. theorem-facing honesty boundary
+8. reduction ladder
+9. inventory reconciliation
+10. readiness-class distinctions
 
-It is:
-“do not preserve multiple copies of the same burden when one lawful home is enough, but do not collapse distinct burdens simply because they sound similar.”
-
-This is why the packed master later also preserves anti-shadow-duplication in the numeric and matrix layer.
-The same philosophy is present here too: duplication becomes unlawful when it creates false mirrors, fake shadows, or rhetorical clutter without adding structural burden. :contentReference[oaicite:16]{index=16}
-
-That is a much deeper concept than “cut repeated lines.”
+This matters because slimming is already being required to prove it did not threaten those anchors before it even gets to brag about reduction. :contentReference[oaicite:18]{index=18}
 
 ---
 
-## 🧪 Why this matters in practice
+## 🧭 Current-stage slimming honesty
 
-This page matters because dense systems can fail in two opposite ways.
+The packed master is also explicit about current-stage honesty.
 
-They can stay bloated and make every future reader carry avoidable rhetorical burden.
+At the current stage, Part 10S does **not** claim:
 
-Or they can slim too aggressively and become cleaner by sacrificing the very distinctions that made the system honest.
+1. slimming has already been performed
+2. final acceptance has already been granted
 
-In practice, lawful compression protects against:
+It claims only that the branch now preserves an explicit slimming constitution strong enough to determine what later reduction may and may not lawfully do without turning the packed master back into a false-complete overview.
 
-1. rhetorical bloat
-2. threshold echo fatigue
-3. fake neatness through legal loss
-4. matrix disappearance through over-summary
-5. readiness-blur through disclaimer deletion
-6. pathway damage through local dedup laziness
-7. theorem-facing dishonesty through closure-boundary trimming
-8. summary convenience replacing real body structure
+That is a very important sentence.
 
-This is especially important in a public repo.
-
-Once a body becomes public, people will naturally ask why it is long.
-Compression law is how you answer that question without destroying the thing they came to inspect.
+It means this page is not allowed to pretend the job is already finished.
+It is allowed to say the slimming law is now explicit. :contentReference[oaicite:19]{index=19}
 
 ---
 
-## 🧯 Failure modes when this layer is missing or weakened
+## 📍 What this page is, and what it is not
 
-If this layer is missing, weakened, or misunderstood, several failure classes become more likely.
+This page **is**:
 
-1. cleanup-fantasy failure  
-   slimming becomes readability-first editing instead of lawful reduction
+1. the slimming constitution page
+2. the compression-class page
+3. the non-duplication law page
+4. the anti-overcompression page
+5. the anti-loss verification page
+6. the pass-I law page
 
-2. overcompression failure  
-   local smoothness is purchased by deleting legal distinction
+This page is **not**:
 
-3. anchor-memory failure  
-   remote upstream wording is relied on after lawful local support has been cut
+1. the pass-I execution report
+2. the final slimming verdict
+3. a generic cleanup note
+4. a readability-first editing guide
+5. a claim that final slim ratio has already been reached
+6. a claim that final acceptance has already been granted
 
-4. matrix-evaporation failure  
-   accountability organs disappear because “later readers should already know”
+That boundary is deliberate.
 
-5. readiness-blur failure  
-   stage-boundary and open-item honesty gets compressed into vague optimism
-
-6. misuse-list collapse failure  
-   section-specific misuse interpretation is shaved away as rhetorical clutter
-
-7. pathway-fusion failure  
-   lawful route differences get merged into one generic sentence
-
-8. fake-slimness failure  
-   the document looks tighter, but only because body-bearing distinctions were quietly erased
-
-These are not editing defects.
-They are reduction-law failures.
+If this page tried to pretend slimming execution is already complete, it would violate the same stage-boundary honesty it is supposed to protect.
 
 ---
 
-## 🧭 Current stage honesty
+## ❌ Common false readings this page rejects
 
-At the current stage, the packed master is explicit about one very important limit.
+This page rejects several weak readings.
 
-It does **not** claim that final slimming has already been performed.
-It does **not** claim that final acceptance has already been granted.
+### False reading 1
 
-It claims something narrower:
-the branch now preserves an explicit slimming constitution strong enough to determine what later reduction may and may not lawfully do without turning the packed master back into a false-complete overview. :contentReference[oaicite:17]{index=17}
+“If two nearby sentences feel repetitive, one should probably go.”
 
-That honesty matters.
+No.
+The packed master requires class-based legal review first.
 
-It allows the project to say:
+### False reading 2
 
-1. candidate families have been identified
-2. compression classes have been defined
-3. no-cut zones have been defined
-4. anti-loss verification exists
-5. bounded Pass I execution law exists
+“Threshold language is usually fluff.”
 
-But it does **not** allow the project to say:
+No.
+Threshold language often carries local legal identity and may remain Class K or Class N.
 
-1. slimming is already complete
-2. final slim ratio is already reached
-3. all later naming or packaging work is already done
-4. compression law has become universal final closure
+### False reading 3
 
-So the lawful current-stage claim is strong, but bounded.
+“Once a strong upstream anchor exists, downstream trimming is always safe.”
 
-The slimming constitution is real.
-The execution law is real.
-But final slimming completion is not being faked.
+No.
+C2 requires unmistakable nearby anchoring and preserved local self-honesty.
+
+### False reading 4
+
+“If the file is cleaner after the pass, the pass was probably lawful.”
+
+No.
+Cleanliness is not proof of preservation.
+
+### False reading 5
+
+“Matrix identities and SRD unit law can probably be compressed later once the reader understands the system.”
+
+No.
+The packed master explicitly forbids that.
+
+### False reading 6
+
+“Because slimming law exists, slimming is basically done.”
+
+No.
+Current-stage slimming honesty explicitly rejects that overclaim.
+
+---
+
+## 🔭 Current stage honesty
+
+At the current stage, this page may lawfully say the following:
+
+1. the branch now preserves an explicit slimming constitution
+2. pass-I target families are explicitly scoped
+3. compression classes now exist explicitly
+4. no-cut zones are explicitly preserved
+5. anti-overcompression law is explicitly preserved
+6. anti-loss verification law is explicitly preserved
+
+At the same time, this page may **not** lawfully say:
+
+1. slimming has already been fully executed
+2. final slim ratio has already been reached
+3. numeric binding has already been completed
+4. final audit has already been passed
+5. final acceptance has already been granted
+
+So this page may lawfully say the slimming law now stands.
+
+But it may not lawfully say the slimming job is already finished. 
 
 ---
 
 ## 📚 Reading path
 
-If this page is your first reduction-law research entry, the best next steps are:
+A stable next-step path from here is:
 
-1. read [Research Hub](./README.md) for the larger research map
-2. read [Packed Master Structure Map](./packed-master-structure-map.md) for the macro-body picture
-3. read [Matrix Accountability and Numeric Binding](./matrix-accountability-and-numeric-binding.md) for anti-shadow-duplication and anti-score-sovereignty
-4. read [Blackfan Audit Baseline](./blackfan-audit-baseline.md) for audit-facing honesty and bounded readiness
-5. read [Dual Closed-Loop Execution Chain](./dual-closed-loop-execution-chain.md) for execution-order law
-6. read [Architecture Overview](./architecture-overview.md) for the broader system skeleton
-7. read [Language Governance](./language-governance.md) for the governance claim behind lawful behavior
-8. read [WFGY_BRAIN Theory](./wfgy-brain-theory.md) for editable behavior context
+1. read [Matrix Accountability and Numeric Binding](./matrix-accountability-and-numeric-binding.md) if you want the accountability anchors that slimming may not violate
+2. read [Reduction Ladder and Inventory Reconciliation](./reduction-ladder-and-inventory-reconciliation.md) if you want the anti-loss anchors that later slimming remains answerable to
+3. read [Theorem-Facing Closure Posture](./theorem-facing-closure-posture.md) if you want the formal closure restraint that slimming may not counterfeit
+4. read [Blackfan Audit Baseline](./blackfan-audit-baseline.md) if you want the later audit lens that judges slimming honesty
+5. read [Architecture Overview](./architecture-overview.md) and [Packed Master Structure Map](./packed-master-structure-map.md) if you want the larger system picture
 
 ---
 
 ## 🔗 Related pages
 
-**Research:** [Research Hub](./README.md) · [Packed Master Structure Map](./packed-master-structure-map.md) · [Matrix Accountability and Numeric Binding](./matrix-accountability-and-numeric-binding.md) · [Blackfan Audit Baseline](./blackfan-audit-baseline.md) · [Dual Closed-Loop Execution Chain](./dual-closed-loop-execution-chain.md) · [Architecture Overview](./architecture-overview.md) · [Language Governance](./language-governance.md) · [WFGY_BRAIN Theory](./wfgy-brain-theory.md)
+**Research:** [Research Hub](./README.md) · [Architecture Overview](./architecture-overview.md) · [Packed Master Structure Map](./packed-master-structure-map.md) · [Matrix Accountability and Numeric Binding](./matrix-accountability-and-numeric-binding.md) · [Reduction Ladder and Inventory Reconciliation](./reduction-ladder-and-inventory-reconciliation.md) · [Theorem-Facing Closure Posture](./theorem-facing-closure-posture.md) · [Blackfan Audit Baseline](./blackfan-audit-baseline.md)
 
 **Docs:** [Quickstart](../docs/quickstart.md) · [Boot Commands](../docs/boot-commands.md)
 
-**Eval:** [Blackfan Testing](../eval/blackfan-testing.md) · [Persona Behavior Checks](../eval/persona-behavior-checks.md)
+**Eval:** [Blackfan Testing](../eval/blackfan-testing.md)
