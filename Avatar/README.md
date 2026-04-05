@@ -55,7 +55,7 @@ AI_NOTE_END
 
 > **A protocol layer for engineered language and human machine interaction.** (🙌 NOTE: still work in progress, will launch VERY soon 🙌) 
 
-<img width="1536" height="1024" alt="Avatar_Hero" src="https://github.com/user-attachments/assets/876c15a5-ceb3-4697-a019-719b6ab06133" />
+[![WFGY Avatar](https://github.com/user-attachments/assets/5f220659-8245-4cb0-8d13-6d287eacde70)](https://github.com/onestardao/WFGY/blob/main/Avatar/README.md)
 
 A governed language runtime for building, tuning, and multiplying avatars.
 
