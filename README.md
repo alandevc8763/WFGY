@@ -58,11 +58,7 @@ PSBigBig x MiniPS: big big welcome, mini singularities.
 
 > One runtime. Many avatars.
 
-<p align="center">
-  <a href="./Avatar/README.md">
-    <img width="1536" alt="WFGY 5.0 Avatar Hero" src="PASTE_AVATAR_HERO_IMAGE_HERE" />
-  </a>
-</p>
+<img width="1536" height="1024" alt="Avatar_Hero" src="https://github.com/user-attachments/assets/876c15a5-ceb3-4697-a019-719b6ab06133" />
 
 A governed runtime for building, tuning, multiplying, and carrying language selves across sessions, tasks, and worlds.
 
