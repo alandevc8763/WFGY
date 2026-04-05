@@ -70,7 +70,7 @@ Avatar is built around a larger idea:
 It can be booted, tuned, compared, saved, branched, and eventually shared.
 
 <p>
-  <a href="https://raw.githubusercontent.com/onestardao/WFGY/main/Avatar/downloads/avatar.txt"><b>Download avatar.txt</b></a>
+  <a href="https://raw.githubusercontent.com/onestardao/WFGY/main/Avatar/downloads/avatar.txt"><b>Download avatar.txt</b></a>  
   ·
   <a href="./highlights/README.md"><b>Explore the 8 Things</b></a>
   ·
@@ -86,7 +86,7 @@ It can be booted, tuned, compared, saved, branched, and eventually shared.
 ## ⚡ Start in 60 Seconds
 
 <p>
-  <a href="https://raw.githubusercontent.com/onestardao/WFGY/main/Avatar/downloads/avatar.txt"><b>Download <code>avatar.txt</code></b></a>
+  <a href="https://raw.githubusercontent.com/onestardao/WFGY/main/Avatar/downloads/avatar.txt"><b>Download <code>avatar.txt</code></b></a>  (now only in beta, not official 😅)
 </p>
 
 1. Upload it to a strong LLM  
