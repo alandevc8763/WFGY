@@ -1,11 +1,11 @@
 # WFGY Ecosystem Scan
 
-Generated at: Sun Apr  5 05:07:11 UTC 2026
+Generated at: Mon Apr  6 05:17:59 UTC 2026
 
 ## Repo snapshot
 
 File count:
-1648
+1694
 
 Top directories:
 ADOPTERS.md
